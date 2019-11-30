@@ -1,3 +1,15 @@
+@media only screen and (max-width:1583px) {
+  #mensagemzoom {
+    display:block;
+    margin-bottom: 3000px;
+    margin-top: 100px;
+  }
+}
+
+
+
+
+
 @media only screen and (min-width:1583px) {
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
@@ -39,33 +51,33 @@
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !                HEADER                !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */ 
+    */
 
     header {
       position: relative;
       height: 56px;
     }
- 
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !             HEADER FIXED             !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-            
-  
+
+
     /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
     e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
-  
+
   nav.normal {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.959);
@@ -140,7 +152,7 @@
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
@@ -171,11 +183,13 @@
     background-color: rgb(230,231,232);
   }
 
-      /*#article_1_main iframe {
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-        float: left;
-        margin-right: 52px;
-      }*/
+      #article_1_main iframe {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+      float: left;
+      margin-right: 52px;
+      width:750px;
+      height:480px;
+      }
 
       #article_1_main img#GoogleMaps {
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
@@ -467,11 +481,11 @@
     margin-bottom: 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -499,24 +513,24 @@
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
         position:relative;
         display:inline-block;
         }
-  
-  
+
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !               Animações              !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
 
-  
+
 }
