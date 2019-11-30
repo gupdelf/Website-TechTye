@@ -42,17 +42,17 @@
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
-  
+
+
 
 
   div.comgif {
-    background-image: url("../img/CyberRiver.gif");
+    background-image: url("img/CyberRiver.gif");
     background-size:100% 110%;
     background-repeat:no-repeat;
     position: relative;
@@ -60,7 +60,7 @@
   }
 
   div.semgif {
-    background-image: url("../img/CyberRiver.jpg");
+    background-image: url("img/CyberRiver.jpg");
     background-size:100% 110%;
     background-repeat:no-repeat;
     position: relative;
@@ -104,13 +104,13 @@
                 transform: translateY(-5px);
                 top:3px;
               }
-    
+
               nav#nav_logo {
               text-align:right;
               width:10%;
               float:right;
               }
-      
+
                   img.icons_menu {
                   width:25px;
                   height:25px;
@@ -184,17 +184,17 @@
             width:50px;
             height:43px;
           }
-      
+
       nav.encostado img#imgTT2 {
         display:none;
       }
-          
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !             HEADER FIXED             !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
-          
+
 
   /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
   e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
@@ -273,11 +273,11 @@
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
-  
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !            HUB HOME SLOGAN           !
@@ -292,7 +292,7 @@
     box-shadow:0px 6px 14px #000;
     height:710px;
   }
-      
+
       hgroup#hgroup_hub {
         outline-color: red;
         width:50%;
@@ -340,21 +340,21 @@
         height:720px;
       }
 
-     
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !              ARTICLE 1               !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
 
-    
+
   article#a1 {
     padding:4.5% 9.5%;
     height: 430px;
     padding:2.5% 9.5%;
     background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-    
+
   }
 
       #a1 h1 {
@@ -419,7 +419,7 @@
   */
 
 
-  
+
 
   article#a2 {
     position:relative;
@@ -716,11 +716,11 @@
     margin-bottom: 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -748,12 +748,12 @@
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
         transform: translateY(-6px);
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -776,7 +776,7 @@
 
   @keyframes chroma {
     0% {color:rgb(252,252,252);}
-    
+
     100% {color:rgb(2, 99, 180);}
   }
 
@@ -824,13 +824,13 @@
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
-  
+
+
 
 
   div.comgif {
@@ -886,13 +886,13 @@
                 transform: translateY(-5px);
                 top:3px;
               }
-	  
+
               nav#nav_logo {
               text-align:right;
               width:10%;
               float:right;
               }
-		  
+
                   img.icons_menu {
                   width:25px;
                   height:25px;
@@ -967,17 +967,17 @@
             width:50px;
             height:43px;
           }
-		  
+
 		  nav.encostado img#imgTT2 {
 			  display:none;
 		  }
-          
+
   /*
   /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*		       !	           HEADER FIXED     	      !
   /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
-          
+
 
   /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
   e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
@@ -1053,11 +1053,11 @@
         width:53px;
         height:60px;
       }
-	  
+
 	  nav.normal img#imgTT3 {
 		  display:none;
 	  }
-  
+
   /*
   /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*		       !	          HUB HOME SLOGAN     	    !
@@ -1072,7 +1072,7 @@
     box-shadow:0px 6px 14px #000;
     height:710px;
   }
-      
+
       hgroup#hgroup_hub {
         outline-color: red;
         width:50%;
@@ -1120,21 +1120,21 @@
         height:720px;
       }
 
-     
+
   /*
   /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*		       !	            ARTICLE 1               !
   /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
 
-    
+
   article#a1 {
     padding:4.5% 9.5%;
     height: 430px;
     padding:2.5% 9.5%;
     background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-    
+
   }
 
       #a1 h1 {
@@ -1199,7 +1199,7 @@
   */
 
 
-  
+
 
   article#a2 {
     position:relative;
@@ -1496,11 +1496,11 @@
     margin-bottom: 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -1528,12 +1528,12 @@
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
         transform: translateY(-6px);
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -1556,7 +1556,7 @@
 
   @keyframes chroma {
     0% {color:rgb(252,252,252);}
-    
+
     100% {color:rgb(2, 99, 180);}
   }
 
@@ -1606,13 +1606,13 @@
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
-  
+
+
 
 
   div.comgif {
@@ -1668,13 +1668,13 @@
                 transform: translateY(-5px);
                 top:3px;
               }
-    
+
               nav#nav_logo {
               text-align:right;
               width:10%;
               float:right;
               }
-      
+
                   img.icons_menu {
                   width:25px;
                   height:25px;
@@ -1759,17 +1759,17 @@
             width:50px;
             height:43px;
           }
-      
+
       nav.encostado img#imgTT2 {
         display:none;
       }
-          
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !             HEADER FIXED             !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
-          
+
 
   /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
   e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
@@ -1844,11 +1844,11 @@
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
-  
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !            HUB HOME SLOGAN           !
@@ -1863,7 +1863,7 @@
     box-shadow:0px 6px 14px #000;
     height:710px;
   }
-      
+
       hgroup#hgroup_hub {
         outline-color: red;
         width:50%;
@@ -1911,21 +1911,21 @@
         height:720px;
       }
 
-     
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !              ARTICLE 1               !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
 
-    
+
   article#a1 {
     padding:4.5% 9.5%;
     height: 430px;
     padding:2.5% 9.5%;
     background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-    
+
   }
 
       #a1 h1 {
@@ -1990,7 +1990,7 @@
   */
 
 
-  
+
 
   article#a2 {
     position:relative;
@@ -2287,11 +2287,11 @@
     margin-bottom: 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -2319,12 +2319,12 @@
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
         transform: translateY(-6px);
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -2347,7 +2347,7 @@
 
   @keyframes chroma {
     0% {color:rgb(252,252,252);}
-    
+
     100% {color:rgb(2, 99, 180);}
   }
 
@@ -2398,13 +2398,13 @@
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
-  
+
+
 
 
   div.comgif {
@@ -2460,13 +2460,13 @@
                 transform: translateY(-5px);
                 top:3px;
               }
-    
+
               nav#nav_logo {
               text-align:right;
               width:10%;
               float:right;
               }
-      
+
                   img.icons_menu {
                   width:25px;
                   height:25px;
@@ -2552,17 +2552,17 @@
             width:50px;
             height:43px;
           }
-      
+
       nav.encostado img#imgTT2 {
         display:none;
       }
-          
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !             HEADER FIXED             !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
-          
+
 
   /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
   e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
@@ -2639,11 +2639,11 @@
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
-  
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !            HUB HOME SLOGAN           !
@@ -2658,7 +2658,7 @@
     box-shadow:0px 6px 14px #000;
     height:710px;
   }
-      
+
       hgroup#hgroup_hub {
         outline-color: red;
         width:50%;
@@ -2706,21 +2706,21 @@
         height:520px;
       }
 
-     
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !              ARTICLE 1               !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
 
-    
+
   article#a1 {
     padding:4.5% 9.5%;
     height: 430px;
     padding:2.5% 9.5%;
     background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-    
+
   }
 
       #a1 h1 {
@@ -2785,7 +2785,7 @@
   */
 
 
-  
+
 
   article#a2 {
     position:relative;
@@ -3082,12 +3082,12 @@
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
         transform: translateY(-6px);
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -3149,13 +3149,13 @@
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
-  
+
+
 
 
   div.comgif {
@@ -3211,13 +3211,13 @@
                 transform: translateY(-5px);
                 top:3px;
               }
-    
+
               nav#nav_logo {
               text-align:right;
               width:10%;
               float:right;
               }
-      
+
                   img.icons_menu {
                   width:25px;
                   height:25px;
@@ -3303,17 +3303,17 @@
             width:50px;
             height:43px;
           }
-      
+
       nav.encostado img#imgTT2 {
         display:none;
       }
-          
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !             HEADER FIXED             !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
-          
+
 
   /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
   e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
@@ -3390,11 +3390,11 @@
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
-  
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !            HUB HOME SLOGAN           !
@@ -3409,7 +3409,7 @@
     box-shadow:0px 6px 14px #000;
     height:710px;
   }
-      
+
       hgroup#hgroup_hub {
         outline-color: red;
         width:50%;
@@ -3457,21 +3457,21 @@
         height:520px;
       }
 
-     
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !              ARTICLE 1               !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
 
-    
+
   article#a1 {
     padding:4.5% 5.5%;
     height: 430px;
     padding:2.5% 9.5%;
     background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-    
+
   }
 
       #a1 h1 {
@@ -3536,7 +3536,7 @@
   */
 
 
-  
+
 
   article#a2 {
     position:relative;
@@ -3834,12 +3834,12 @@
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
         transform: translateY(-6px);
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -3902,13 +3902,13 @@
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
-  
+
+
 
 
   div.comgif {
@@ -3967,13 +3967,13 @@
                 transform: translateY(-5px);
                 top:3px;
               }
-    
+
               nav#nav_logo {
               text-align:right;
               width:10%;
               float:right;
               }
-      
+
                   img.icons_menu {
                   width:25px;
                   height:25px;
@@ -4060,17 +4060,17 @@
             width:50px;
             height:43px;
           }
-      
+
       nav.encostado img#imgTT2 {
         display:none;
       }
-          
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !             HEADER FIXED             !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
-          
+
 
   /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
   e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
@@ -4134,7 +4134,7 @@
               nav.normal img {
                 display: none;
               }
-  
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !            HUB HOME SLOGAN           !
@@ -4149,7 +4149,7 @@
     box-shadow:0px 6px 14px #000;
     height:710px;
   }
-      
+
       hgroup#hgroup_hub {
         outline-color: red;
         width:50%;
@@ -4197,21 +4197,21 @@
         height:520px;
       }
 
-     
+
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !              ARTICLE 1               !
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
 
-    
+
   article#a1 {
     padding:4.5% 5.5%;
     height: 430px;
     padding:2.5% 9.5%;
     background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-    
+
   }
 
       #a1 h1 {
@@ -4276,7 +4276,7 @@
   */
 
 
-  
+
 
   article#a2 {
     position:relative;
@@ -4574,12 +4574,12 @@
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
         transform: translateY(-6px);
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -4594,4 +4594,3 @@
   /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
   */
 }/* FINAL DO MEDIA 0px - 999.9px
-
