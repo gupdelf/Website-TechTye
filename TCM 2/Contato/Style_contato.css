@@ -1,0 +1,522 @@
+@media only screen and (min-width:1583px) {
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                RESET                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+  * {
+    color:rgb(114, 111, 112);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-size:16px;
+    font-family: 'Nunito', sans-serif;
+    font-stretch: 100%;
+    line-height: 28px;
+  }
+
+      img#fundoBody {
+        position: fixed;
+        filter:grayscale(100%) opacity(17%);
+        z-index: -10;
+        top:-200px;
+        transform:translateX(200px);
+      }
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               PRÉ-SETS               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Pré sets para auxílio da estilização (apenas classes; colocar a classe desejada na tag do html já irá atribuir
+  os efeitos)-*/
+
+  .sticky {position: fixed ; top: 0 ; margin-top:0; width: 100%; height:65px; display:block;}
+  .hide {display:none;}
+  .transparente{opacity: 0.3}
+  .outline {outline: 2px solid red;}
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
+  .p {font-size: 18px;}     
+  .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
+  .topico {color:rgb(15,105,178); font-weight:bold;}
+  .tm:after {content:' \2122';}
+  
+    /*
+    /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+    /*           !                HEADER                !
+    /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+    */ 
+
+    header {
+      position: relative;
+      height: 56px;
+    }
+ 
+    /*
+    /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+    /*           !             HEADER FIXED             !
+    /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+    */
+            
+  
+    /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
+    e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
+  
+  nav.normal {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.959);
+    height:56px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding:0 9.5%;
+    position: fixed;
+    top:0;
+    margin-top: 0;
+    width:100%;
+    z-index: 10;
+  }
+
+      nav.normal ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.1% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.normal li.li_menu {
+            display: inline-block;
+            font-size: 15px;
+            position: relative;
+          }
+
+          nav.normal li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              li.li_menu a {
+                text-decoration: none;
+                color:rgb(55,52,53);
+              }
+
+                  nav#menu li:hover a {
+                    color:rgb(2, 99, 180);
+                    font-weight: bold;
+                    display:block;
+                  }
+
+                  nav#menu li:hover hr {
+                    display: block;
+                  }
+
+              li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                transform: translateY(14.5px);
+                border-top-left-radius: 1px;
+                border-top-right-radius: 1px;
+              }
+
+      nav.normal form#form_menu {
+        float: right;
+        transform: translateY(13px);
+        color:rgb(33, 33, 33);
+        font-weight: bold;
+        font-size:25px;
+        display:none;
+      }
+
+      nav.normal figure {
+        float:right;
+      }
+
+      nav.normal img {
+        width:53px;
+        height:60px;
+      }
+    
+    nav.normal img#imgTT3 {
+      display:none;
+    }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                 MAIN                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  main {
+    outline:red;
+  }
+
+      main .article_main {
+        outline:red;
+      }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 1               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  main #article_1_main {
+    padding:4% 15% 2% 15%;
+    height:670px;
+    background-color: rgb(230,231,232);
+  }
+
+      /*#article_1_main iframe {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+        float: left;
+        margin-right: 52px;
+      }*/
+
+      #article_1_main img#GoogleMaps {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+        float: left;
+        margin-right: 52px;
+        width:750px;
+        height:480px;
+      }
+
+      #article_1_main section {
+        outline: red;
+        margin-top: 32px;
+      }
+
+          #article_1_main section section {
+            outline: red;
+          }
+
+          #article_1_main section section:not(last-child) {
+            margin-bottom: 12px;
+          }
+
+              #article_1_main section section figure {
+                float: left;
+                margin-right: 30px;
+                height:90px;
+              }
+
+              #article_1_main section section hgroup h1 {
+                font-size:26px;
+              }
+
+              #article_1_main section section hgroup h4 {
+                font-weight: 5;
+              }
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 2               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  main #article_2_main {
+    height:90px;
+    background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
+    padding:2% 9.5% 2% 9.5%;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+  }
+
+      #article_2_main p {
+        color:rgb(252,252,252);
+        font-size:25px;
+      }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 3               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  main #article_3_main {
+    height:431px;
+    background-image:url("../img/bgContato.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.534);
+  }
+
+      form {
+        padding: 3% 12.5%;
+        background-color: rgba(0, 0, 0, 0.30);
+        height:100%;
+      }
+
+          form h3 {
+            color:rgb(252,252,252);
+            font-weight: 300;
+          }
+
+          form input, select {
+            padding:12px 5px;
+          }
+
+              form input, textarea, select {
+                box-shadow: 0px 2px 7px rgba(0,0,0,0.5);
+                border:1px solid rgb(220,220,220);
+                border-radius: 5px;
+                background-color: rgba(252,252,252,0.4);
+                color:rgb(252,252,252);
+              }
+
+              form input:focus {
+                outline: none;
+                background-color: rgba(252,252,252,0.7);
+                color:rgb(30,30,30);
+              }
+
+              form textarea:focus {
+                outline: none;
+                background-color: rgba(252,252,252,0.7);
+                color:rgb(30,30,30);
+              }
+
+              form select:focus {
+                outline: none;
+                background-color: rgba(252,252,252,0.7);
+                color:rgb(30,30,30);
+              }
+
+          form .section_form {
+            width:50%;
+            height:100%;
+            height:45px;
+          }
+
+          form > section * {
+            margin-bottom: 8px;
+          }
+
+          #article_3_main form section#section_1_form {
+            float:left;
+            padding-right: 34px;
+          }
+
+              #section_1_form > input {
+                width:100%;
+              }
+
+              #section_1_form #filho1 {
+                float:left;
+                width:50%;
+                padding-right: 34px;
+              }
+
+                  #section_1_form #filho1 input {
+                    width:100%;
+                  }
+
+              #section_1_form #filho2 {
+                display: inline-block;
+                width:50%;
+              }
+
+                  #section_1_form #filho2 input {
+                    width:100%;
+                  }
+
+                  #section_1_form #filho2 select {
+                    width:100%;
+                  }
+
+          #article_3_main form section#section_2_form {
+            display: inline-block;
+          }
+
+              #section_2_form > select, textarea {
+                width:100%;
+              }
+
+              #section_2_form textarea {
+                height:128px;
+                padding:12px 5px;
+              }
+
+          form input:last-child {
+            background-color:rgb(2, 99, 180);
+            border:none;
+            width:14%;
+            margin:0 auto;
+            padding:15px 7px;
+            cursor: pointer;
+            float: right;
+            margin-top:5px;
+          }
+
+              form input:last-child:hover {
+                background-color: rgb(22,119,200);
+              }
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MAIOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do footer fixo -*/
+
+  footer {
+    outline-color: red;
+    margin-top:40px;
+  }
+
+      article#article_footer {
+        position:relative;
+        height:411.75px;
+        bottom:0;
+        margin-bottom:0;
+        width:100%;
+        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
+        padding: 5% 9.5% 5% 9.5%;
+        font-size: 16px;
+      }
+
+          nav.nav_footer {
+            height: 300px;
+            float:left;
+            padding-top: 58px;
+            padding-bottom:20px;
+            padding-right: 30px;
+            color:rgba(30, 26, 65, 0.3);
+          }
+
+              nav.nav_footer span.span_titles_footer {
+                color:rgb(55,52,53);
+                font-weight: bold;
+                font-size:18px;
+              }
+
+              nav.nav_footer a,span.letrinhas {
+                text-decoration: none;
+                color:rgba(136, 133, 134, 0.61);
+              }
+
+          figure#figure_article_footer {
+            height: auto;
+            float:left;
+            color:rgba(30, 26, 65, 0.3);
+            padding:4% 0;
+            width:25%;
+          }
+
+              figure#figure_article_footer img {
+                width:230px;
+                height:181.28820960699px;
+              }
+
+          nav#nav_1_footer {
+            width:16%;
+            padding-left: 5%;
+          }
+
+              img.icons_footer {
+                width:20px;
+                height:20px;
+                transform: translateY(3.5px);
+              }
+
+              img#emailIconFooter {
+                filter: grayscale(30%);
+              }
+
+          nav#nav_2_footer {
+            width:26%;
+            display:inline-block;
+            right:0;
+            padding-left: 3%;
+            text-align: center;
+          }
+
+          nav#nav_3_footer {
+            width:32%;
+            float:right;
+            padding-left: 4.6%;
+            text-align: center;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 1.7% 9.5% 1.7% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 14px;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 1.7% 9.5% 1.7% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 14px;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: -1px -1px 20px #000;
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+  
+  
+    /*
+    /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+    /*           !               Animações              !
+    /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+    */
+
+  
+}

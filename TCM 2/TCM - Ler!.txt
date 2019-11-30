@@ -1,0 +1,266 @@
+﻿---------------------------------------------* Authors *---------------------------------------------
+			Chistian - Designer
+			Gustavo - Analista | FrontEnd
+			Matheus - Banco de dados | BackEnd
+			Vitor - Analista
+----------------------------------------------* Cores  *---------------------------------------------
+rgb(55,52,53) - Cinza escuro
+rgb(2, 99, 180) - Azul
+rgb(255,0,0) - Vermelho
+rgb(220,220,220) - Cinza claro
+rgb(230,231,232) - Cinza fundo do relógio
+rgb(252,252,252) - Cinza mais claro
+----------------------------------------------* Links *---------------------------------------------
+Refer�ncia Visual --->  https://bossabox.com/blog/6-dicas-para-ter-um-site-bonito-e-relevante/
+
+Refer�ncia Visual --->  http://inventotecnologia.com.br/servicos/software-sob-demanda/
+						?utm_source=google&utm_medium=cpc&utm_term=search&utm_content=
+						performance&utm_campaign=sobdemanda&gclid=Cj0KCQjwz6PnBRCPARIs
+						ANOtCw3IkWROGijfOiFhIIxlRDkHQmt7vL-flH2VtqVKPiDltyM4RbEJ31MaAl
+						lTEALw_wcB
+
+Refer�ncia Visual --->  https://ravel.com.br/gestao-de-ti?utm_source=google&utm_medium
+						=cpc&utm_campaign=campanha&gclid=Cj0KCQjwla7nBRDxARIsADll0kCQ1
+						VswBywXOfTP4lHiwqJkxHHd7ZMZKgKsdQSJmNognC2Lq7Q7lWkaAsWtEALw_wcB
+
+Refer�ncia Visual -->  https://www.youtube.com/watch?v=qPYCnebQQ6U	
+
+Referência Visual -->  https://www.web4business.com.br/Index.php?gclid=EAIaIQobChMIncTHtp3l4gIVyuDICh1qegf-EAAYASAAEgJzWvD_BwE										
+---------------------------------------------* Fonts *---------------------------------------------
+font-family: 'Roboto Mono', monospace;
+font-family: 'Nunito', sans-serif; <- Escolhida
+font-family: 'Comfortaa', cursive;
+------------------------------------------* Fonts Links *------------------------------------------
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+
+------------------------------------------* Missão *------------------------------------------
+A nossa missão é ser a melhor entre as empresas de tecnologia, proporcionando serviços de qualidade em desenvolvimento de softwares,
+atendendo as expectativas de nossos clientes e inovando, dentro do possível, nossa forma de pensar e fazer.
+------------------------------------------* Visão *------------------------------------------
+Ser uma empresa reconhecida a nível internacional, criando laços com nossos clientes e parceiros, oferecendo a assistência e suporte
+necessários para os mesmos. Mantendo sempre nossa identidade ideológica, iremos atender todas as necessidades de inovação e busca de 
+conhecimento em diferentes áreas do mercado atual.
+------------------------------------------* Valores *------------------------------------------
+Os valores da TechTye são baseados no comprometimento, responsabilidade, integridade, qualidade e excelência com nossos clientes e 
+colaboradores 
+------------------------------------------* Dados da empresa *------------------------------------------
+Endereço: Av. Paulista - Jardins, Nº 777, 2º andar - SP 01311-100
+Email: TechnologyTye@outlook.com.br
+Telefone: (11)5237-2195
+CNPJ: 71.174.159/0001-70
+Slogan: Tempo é tecnologia 
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>TechTye | Home</title>
+
+				<!-- LINKS -->
+
+		<link rel="stylesheet" href="./Style_index.css" text="Style/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+	</head>
+
+
+	<body id="Home" class="">
+		<img id="fundoBody" src="../img/fundoBody.png"/>
+		<div id="hub_img" class="semgif">
+			<header id="header_menu">
+				<article id="logo">
+					<section id="section_logo">
+							(11)5237-2195
+						<nav id="nav_logo"> <!--Links em lista das redes sociais, deparece junto...-->
+							<a href="#"><img class="icons_menu" src="../img/faceIcon.png"/></a>
+							<a href="#"><img class="icons_menu" src="../img/instagramIcon.png"/></a>
+							<a href="#"><img class="icons_menu" src="../img/twitterIcon.png"/></a>
+						</nav>
+					</section>
+				</article>
+				<nav id="menu" class="encostado">
+					<ul id="ul_menu">
+						<li id="li_4_menu" class="li_menu">
+							<a href="#Home" target="_self">Home</a>
+							<hr id="hr_li_4_menu"class=""/>
+						</li>
+						<li id="li_2_menu" class="li_menu">
+							<a href="../Empresa/Empresa.html"target="_self">Empresa</a>
+							<hr id="hr_li_2_menu"class="hide"/>
+						</li>
+						<li id="li_3_menu" class="li_menu">
+							<a href="../Suporte/Suporte.html"target="_self">Suporte</a>
+							<hr id="hr_li_3_menu"class="hide"/>
+						</li>
+						<li id="li_1_menu" class="li_menu">
+							<a href="../Contato/Contato.html"target="_self">Contato</a>
+							<hr id="hr_li_1_menu"class="hide"/>
+						</li>
+					</ul>
+					<form id="form_menu"><!--input de pesquisa-->
+						Pesquisar
+					</form>
+					<figure>
+						<img id="imgTT3"src="../img/TT3.png"/>
+						<img id="imgTT2" src="../img/TT2.png"/>
+					</figure>
+				</nav>
+			</header>
+			<article id="hub" class="">
+				<hgroup id="hgroup_hub" class="">
+					<p>TechTye</p>
+					<h3>O Tempo é tecnologia</h3>
+				</hgroup>
+			</article>
+		</div>	<!--// End div#world_img \\-->
+
+		<main id="main" class="">
+			<article id="article_0_main" class="">
+				<h1>QUALIDADE ÍMPAR NO MERCADO</h1>
+				<section>
+					<hgroup id="hgroup_software">
+						<h2>Software</h2>
+						<br/>
+						<h3>
+							A solução definitiva para as necessidades de sua empresa. 
+							Sistemas feitos sob medida com eficiência e segurança.
+						</h3>
+					</hgroup>
+					<hgroup id="hgroup_out">
+						<h2>Outsourcing</h2>
+						<br/>
+						<h3>
+							Profissionais especializados levando toda a qualidade e experiência 
+							TechTye para dentro de sua empresa.
+						</h3>
+					</hgroup>
+				</section>	
+			</article>
+			
+			<article id="article_1_main" class="article_main">
+				<img src="../img/fundo.png" />
+				
+				<hgroup>
+					<h1>Conheça a TechTye</h1>
+
+									<br/>
+
+					<hr/>
+
+									<br/>
+
+					<h2>Desde 2019, sua melhor opção.</h2>
+
+									<br/>
+
+					<p>
+						Fora fundada por quatro estudantes com qualidades e interesses diferentes, mas com um sonho em comum. O foco
+						principal da nossa empresa agora é claro, basta tempo para reunir as ideias e discutir sobre os novos passos.
+					</p><br/>
+					<p>
+						Quando se trata de tecnologia, as palavras-chave mais coerentes com o assunto, para nós, são: conhecimento,
+						dedicação e agilidade. Um projeto feito com excelência depende da correlação destas palavras.
+					</p><br/>
+					<p>
+						Ao longo de nossa caminhada, fomos nos aperfeiçoando de acordo com as inúmeras mudanças que o mercado...
+						<!--sofreu.
+						Esse é o diferencial dos nossos sistemas, a nossa constante manutenção para o manter sempre atualizado com 
+						novas tecnologias.-->
+					</p><br/><br/>
+					<a href="../Empresa/Empresa.html">Ver mais</a>
+				</hgroup>
+			</article>
+			<article id="article_3_main" class="">
+					<p>
+						<span class="aspas">"</span> People say you have to have a lot of passion for what you’re doing
+						and it’s totally true.And the reason is because it’s so hard that if you don’t, any rational 
+						person would give up. <span id="aspas2" class="aspas">"</span>
+						<br/>
+						<span id="Steve">Steve Jobs</span>
+					</p>
+			</article>
+			<article id="article_2_main" class="article_main">
+				<section id="section_article_2_main">
+
+					<hgroup id="hgroup_article_2">
+						<h1>Titulo grande uma coisa escrita com muitas palavras</h1><br/>
+						<h3>alguma coisa pra complementar o titulo</h3>
+					</hgroup>
+					<article id="box_main">
+						<section id="box_1" class="boxes_article_2">
+							<h1>fgfgfggg</h1>
+						</section>
+						<section id="box_2" class="boxes_article_2">
+							<h1>fgfgfggg</h1>
+						</section>
+						<section id="box_3" class="boxes_article_2">
+							<h1>fgfgfggg</h1>
+						</section>
+						<section id="box_4" class="boxes_article_2">
+							<h1>fgfgfggg</h1>
+						</section>
+					</article>
+				</section>
+			</article>
+		</main>
+
+		<footer id="footer">
+			<article id="article_footer">
+				<figure id="figure_article_footer" class="">
+					<img src="../img/logo.png"/>
+				</figure>
+				<nav id="nav_1_footer" class="nav_footer">
+					<span class="span_titles_footer">Navegue</span><br/>
+					<a href="#Home">Home</a><br/>
+					<a href="../Empresa/Empresa.html">Empresa</a><br/>
+					<a href="../Suporte/Suporte.html">Suporte</a><br/>
+					<a href="../Contato/Contato.html">Contato</a><br/>
+					<a href="../Contato/Contato.html#footer">Nuuu</a><br/>
+					<a href="#article_2_main">Nuuu</a><br/>
+					<a href="#article_3_main">Nuuu</a><br/>
+				</nav>
+				<nav id="nav_2_footer" class="nav_footer">
+					
+					<span class="span_titles_footer">Conteúdo</span><br/>
+					<a href="#">Nuuuu</a><br/>
+					<a href="#">Nuuuuuu</a><br/>
+					<a href="#">Nuuuu</a><br/>
+					<a href="#">Nuuuuuu</a><br/>
+					<a href="#">Nuuuu</a><br/>
+					<a href="#">Nuuuuuu</a><br/>
+					<a href="#">Nuuuu</a><br/>
+				</nav>
+				<nav id="nav_3_footer" class="nav_footer">
+					<span class="span_titles_footer">Newsletter</span><br/>
+					<form id="form_nav_3_footer" class="">
+						<input id="input_nav_3_footer" type="email" class=""name="emailaddress" placeholder="Seu e-mail"/>
+						<button id="button_nav_3_footer" type="submit"><span> ► </span></button>
+					</form><br/><br/>
+					<span class="span_titles_footer">Contato</span><br/>
+					<span class="letrinhas">(11) 5237-2195</span><br/>
+					<span class="letrinhas">TechnologyTye@outlook.com.br</span><br/><br/>
+				</nav>
+			</article>
+			<section id="section_footer" class="">
+				<span id="span_direitos">© 2019 Technology Tye - Todos os direitos reservados.</span>
+				<nav id="nav_section_footer">
+					<a href="#"><img class="icons_footer" src="../img/faceIcon.png"/></a>
+					<a href="#"><img class="icons_footer" src="../img/instagramIcon.png"/></a>
+					<a href="#"><img class="icons_footer" src="../img/twitterIcon.png"/></a>
+				</nav>
+			</section>
+		</footer>
+	</body>
+	<script src="./Script_index.js"></script>
+</html>
+
+
+
+
+
+

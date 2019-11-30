@@ -1,0 +1,4597 @@
+﻿a { text-decoration: none; }
+
+@media only screen and (min-width: 1700px) {
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                RESET                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+  * {
+    color:rgb(134, 131, 132);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-size:1em;
+    font-family: 'Nunito', sans-serif;
+    font-stretch: 100%;
+    line-height: 28px;
+  }
+
+      img#fundoBody {
+        position: fixed;
+        filter:grayscale(100%) opacity(17%);
+        top:-250px;
+        transform:translateX(280px);
+        float: center;
+      }
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               PRÉ-SETS               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Pré sets para auxílio da estilização (apenas classes; colocar a classe desejada na tag do html já irá atribuir
+  os efeitos)-*/
+
+  .sticky {position: fixed ; top: 0 ; margin-top:0; width: 100%; height:65px; display:block;}
+  .hide {display:none;}
+  .transparente{opacity: 0.3}
+  .outline {outline: 2px solid red;}
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
+  .p {font-size: 18px;}     
+  .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
+  .topico {color:rgb(15,105,178); font-weight:bold;}
+  .tm:after {content:' \2122';}
+  
+  
+
+
+  div.comgif {
+    background-image: url("../img/CyberRiver.gif");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+  div.semgif {
+    background-image: url("../img/CyberRiver.jpg");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              HEADER LOGO             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Começo da estilização da header que vai aparecer quando a tela estiver encostada no top,vai ser um pouco
+  maior e pode mudar alguns atributos conforme for passando o tempo (logo + menu). O container terá a imagem da
+  logomarca ao centro-*/
+
+  header#header_menu {
+    outline:red;
+    position: absolute;
+    width: 100%;
+  }
+
+      article#logo {
+        padding:0.2% 9.5%;
+        height:40px;
+        background-color: rgba(0, 0, 0, 0.918);
+      }
+
+          section#section_logo {
+            outline-color:red;
+          }
+
+              #section_logo img#phoneIcon {
+                outline:red;
+              }
+
+              #section_logo span {
+                font-size: 0.875em;
+                transform: translateY(-5px);
+                top:3px;
+              }
+    
+              nav#nav_logo {
+              text-align:right;
+              width:10%;
+              float:right;
+              }
+      
+                  img.icons_menu {
+                  width:25px;
+                  height:25px;
+                  display:inline-block;
+                  transform: translateY(6px);
+                  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER HOME              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  nav.encostado {
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.918),rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.267));
+    padding:0 9.5%;
+    height:76px;
+    z-index: 10;
+  }
+
+      nav.encostado ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.6% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.encostado li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.encostado li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              nav.encostado li.li_menu a {
+                text-decoration: none;
+                font-size:1.25em;
+                color:#fff;
+                font-weight: bold;
+              }
+
+              nav.encostado li#li_4_menu a {
+                color:rgb(2, 99, 180);
+              }
+
+                  /*nav.encostado li#li_4_menu a {
+                    color:rgb(15,105,178);
+                  }*/
+
+              nav.encostado li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                border-top-left-radius: 2px;
+                border-top-right-radius: 3px;
+              }
+
+      nav.encostado figure {
+        float:right;
+        transform:translateY(15px);
+      }
+
+          nav.encostado img {
+            width:50px;
+            height:43px;
+          }
+      
+      nav.encostado img#imgTT2 {
+        display:none;
+      }
+          
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER FIXED             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+          
+
+  /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
+  e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
+
+  nav.normal {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.959);
+    height:56px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding:0 9.5%;
+    z-index: 10;
+  }
+
+      nav.normal ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.1% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.normal li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.normal li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              nav.normal li.li_menu a {
+                text-decoration: none;
+                color:rgb(55,52,53);
+                font-weight: bold;
+              }
+
+              nav.normal li#li_4_menu a {
+                color:rgb(2, 99, 180);
+              }
+
+                  nav#menu li:hover a {
+                    color:rgb(2, 99, 180);
+                    font-weight: bold;
+                    display:block;
+                  }
+
+                  nav#menu li:hover hr {
+                    display: block;
+                  }
+
+              nav.normal li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                border-top-left-radius: 1px;
+                border-top-right-radius: 1px;
+              }
+
+      nav.normal form#form_menu {
+        float: right;
+        transform: translateY(13px);
+        color:rgb(33, 33, 33);
+        font-weight: bold;
+        font-size:1.5625em;
+        display:none;
+      }
+
+      nav.normal figure {
+        float:right;
+      }
+
+      nav.normal img {
+        width:53px;
+        height:60px;
+      }
+    
+    nav.normal img#imgTT3 {
+      display:none;
+    }
+  
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !            HUB HOME SLOGAN           !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Estilização do container Main com width máxima e título do site -*/
+
+  article#hub {
+    background-color:rgba(0, 0, 0, 0.267);
+    padding:6.5% 9.5%;
+    box-shadow:0px 6px 14px #000;
+    height:710px;
+  }
+      
+      hgroup#hgroup_hub {
+        outline-color: red;
+        width:50%;
+        transform:translateY(153px);
+      }
+
+          hgroup#hgroup_hub #span1hub {
+            text-align: left;
+            font-size:2.825em;
+            line-height: 65px;
+            color:rgb(252, 252, 252);
+            font-weight: 20;
+          }
+
+          #hgroup_hub .spanAzul {
+            color:rgb(2, 99, 180);
+            font-weight: bold;
+          }
+
+          #hgroup_hub p {
+            position: absolute;
+            right:0;
+            z-index: -3;
+            font-size: 150px;
+            transform: translateY(7px) translateX(600px) scale(1.2);
+            color:rgba(30,30,30,0.45);
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                 MAIN                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do content (article) é como se fosse uma div#world -*/
+  /*- Estilização de todos os containers da página -*/
+
+  main#main {
+    position: relative;
+  }
+
+      article.article_main {
+        height:720px;
+      }
+
+     
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 1               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+    
+  article#a1 {
+    padding:4.5% 9.5%;
+    height: 430px;
+    padding:2.5% 9.5%;
+    background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+    
+  }
+
+      #a1 h1 {
+        outline:red;
+        text-align:center;
+        color:rgb(252,252,252);
+        font-size:1.875em;
+        word-spacing:4px;
+      }
+
+      #a1 section {
+        margin-top:72px;
+        text-align:center;
+      }
+
+          #a1 section hgroup {
+            margin:0 10%;
+            border:1px solid rgb(255,255,255);
+            border-radius:10px;
+            background-color: rgba(0, 0, 0, 0.185);
+            cursor: default;
+          }
+
+              #a1 section hgroup:hover {
+                border:1px solid rgb(55,52,53);
+                transition: all .5s;
+              }
+
+              #a1 hgroup h2 {
+                font-weight:bold;
+                color:rgb(252,252,252);
+              }
+
+              #a1 hgroup h3 {
+                color:rgb(220, 220, 220);
+                font-weight:5;
+              }
+
+          #a1 section #hgroup_software {
+            padding:18px 18px;
+            text-align:center;
+            float:left;
+            width:30%;
+            position:relative;
+          }
+
+          #a1 section #hgroup_out {
+            padding:18px 18px;
+            text-align:center;
+            float:right;
+            width:30%;
+            position:relative;
+          }
+
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 2               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  
+
+  article#a2 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a2 img {
+        position:absolute;
+        width:100%;
+        filter: grayscale(75%) opacity(23%);
+        transform:scale(1.47);
+        transition:all .5s;
+      }
+
+          #a2:hover img {
+            transform:scale(1.5);
+            filter:grayscale(80%) opacity(20%);
+          }
+
+      #a2 hgroup {
+        top:38px;
+        left:60px;
+        margin:6.5% 9.5%;
+        position:relative;
+        width:40%;
+
+      }
+
+          #a2 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a2 hgroup hr {
+            border:1px solid rgb(2, 99, 180);
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a2 hgroup p {
+            color:rgb(252,252,252);
+            font-style: italic;
+          }
+
+          #a2 hgroup a{
+            text-decoration: none;
+            text-align:center;
+            width: 26%;
+            background-color:rgb(252,252,252);
+            border-radius:6px;
+            padding:13px 30px;
+            color:rgb(55,52,53);
+          }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 3               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a3 {
+    height: 30px;
+    background-color: rgb(55,52,53);
+    z-index: 60;
+  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 4               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a4 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a4 img {
+        position:absolute;
+        width:100%;
+        height: 140%;
+        top:-250px;
+        filter: grayscale(75%) opacity(33%);
+        transform: scale(1) rotateY(180deg);
+        transition: all .5s;
+      }
+
+          #a4:hover img {
+            transform:scale(1.03) rotateY(180deg);
+            filter:grayscale(80%) opacity(30%);
+            transition: all .5s;
+          }
+
+      #a4 section {
+        float:left;
+        outline: 1px solid red;
+      }
+
+      #a4 hgroup {
+        top:38px;
+        left:60px;
+        margin:4.5% 9.5%;
+        position:relative;
+        width:35%;
+        float: right;
+      }
+
+          #a4 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup hr {
+            border:1px solid yellow;
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a4 hgroup p {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup div {
+            height:120px;
+            width:10px;
+            content: '';
+            transform: translateX(18px);
+            border-left-style: solid;
+            border-left-width: 2px;
+            border-left-color: #fff;
+          }
+
+          #a4 hgroup div#div1 {
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-image: linear-gradient(
+                to bottom,
+                #fff,
+                #fff,
+                yellow
+              )1 70%;
+          }
+
+          #a4 hgroup span#span2019 {
+            color: yellow;
+            font-weight: bold;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 5               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  article#a5 {
+    padding:5.9% 9.5%;
+    height:430px;
+    position:relative;
+    background-image: linear-gradient(rgb(251,251,251),rgb(251,251,251),rgba(251, 251, 251, 0));
+  }
+
+      #a5 p {
+        text-align:center;
+        color:rgb(55,52,53);
+        font-size:2.9375em;
+        line-height:52px;
+        font-weight:5px;
+        font-style: italic;
+      }
+
+          #a5 p span.aspas {
+            font-size:1.5em;
+          }
+
+              #a5 p span#aspas2 {
+                transform:translateY(18px);
+              }
+
+          #a5 p span#Steve {
+            color:rgb(2, 99, 180);
+            font-weight:bold;
+            font-size: 24px;
+            float: right;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MAIOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do footer fixo -*/
+
+  footer {
+    outline-color: red;
+    margin-top:35px;
+  }
+
+      article#article_footer {
+        position:relative;
+        height:411.75px;
+        bottom:0;
+        margin-bottom:0;
+        width:100%;
+        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
+        padding: 5% 9.5% 5% 9.5%;
+        font-size: 1em;
+      }
+
+          nav.nav_footer {
+            height: 300px;
+            float:left;
+            padding-top: 58px;
+            padding-bottom:20px;
+            padding-right: 30px;
+            color:rgba(30, 26, 65, 0.3);
+          }
+
+              nav.nav_footer span.span_titles_footer {
+                color:rgb(55,52,53);
+                font-weight: bold;
+                font-size:1.125em;
+              }
+
+              nav.nav_footer a,span.letrinhas {
+                text-decoration: none;
+                color:rgba(136, 133, 134, 0.61);
+              }
+
+          figure#figure_article_footer {
+            height: auto;
+            float:left;
+            color:rgba(30, 26, 65, 0.3);
+            padding:4% 0;
+            width:25%;
+          }
+
+              figure#figure_article_footer img {
+                width:230px;
+                height:181.28820960699px;
+              }
+
+          nav#nav_1_footer {
+            width:16%;
+            padding-left: 5%;
+          }
+
+              img.icons_footer {
+                width:20px;
+                height:20px;
+                transform: translateY(3.5px);
+              }
+
+              img#emailIconFooter {
+                filter: grayscale(30%);
+              }
+
+          nav#nav_2_footer {
+            width:26%;
+            display:inline-block;
+            right:0;
+            padding-left: 3%;
+            text-align: center;
+          }
+
+          nav#nav_3_footer {
+            width:32%;
+            float:right;
+            padding-left: 4.6%;
+            text-align: center;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 1.7% 9.5% 1.7% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 1.7% 9.5% 1.7% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: -1px -1px 20px #000;
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+        transform: translateY(-6px);
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               Animações              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  .spanAzul {
+    animation: chroma 5s infinite;
+    -webkit-animation:chroma 5s infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes chroma {
+    0% {color:rgb(252,252,252);}
+    
+    100% {color:rgb(2, 99, 180);}
+  }
+
+}/* FINAL DO MEDIA MIN-WIDTH 1700px - ...px */
+
+
+@media only screen and (min-width:1583px) and (max-width:1699.9px){
+
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	              RESET     	          !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+  * {
+    color:rgb(134, 131, 132);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-size:16px;
+    font-family: 'Nunito', sans-serif;
+    font-stretch: 100%;
+    line-height: 28px;
+  }
+
+      img#fundoBody {
+        position: fixed;
+        filter:grayscale(100%) opacity(17%);
+        top:-200px;
+        transform:translateX(200px);
+      }
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	             PRÉ-SETS     	        !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Pré sets para auxílio da estilização (apenas classes; colocar a classe desejada na tag do html já irá atribuir
+  os efeitos)-*/
+
+  .sticky {position: fixed ; top: 0 ; margin-top:0; width: 100%; height:65px; display:block;}
+  .hide {display:none;}
+  .transparente{opacity: 0.3}
+  .outline {outline: 2px solid red;}
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
+  .p {font-size: 18px;}     
+  .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
+  .topico {color:rgb(15,105,178); font-weight:bold;}
+  .tm:after {content:' \2122';}
+  
+  
+
+
+  div.comgif {
+    background-image: url("../img/CyberRiver.gif");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+  div.semgif {
+    background-image: url("../img/CyberRiver.jpg");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	            HEADER LOGO    	        !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Começo da estilização da header que vai aparecer quando a tela estiver encostada no top,vai ser um pouco
+  maior e pode mudar alguns atributos conforme for passando o tempo (logo + menu). O container terá a imagem da
+  logomarca ao centro-*/
+
+  header#header_menu {
+    outline:red;
+    position: absolute;
+    width: 100%;
+  }
+
+      article#logo {
+        padding:0.2% 9.5%;
+        height:40px;
+        background-color: rgba(0, 0, 0, 0.918);
+      }
+
+          section#section_logo {
+            outline-color:red;
+          }
+
+              #section_logo img#phoneIcon {
+                outline:red;
+              }
+
+              #section_logo span {
+                font-size: 0.875em;
+                transform: translateY(-5px);
+                top:3px;
+              }
+	  
+              nav#nav_logo {
+              text-align:right;
+              width:10%;
+              float:right;
+              }
+		  
+                  img.icons_menu {
+                  width:25px;
+                  height:25px;
+                  display:inline-block;
+                  transform: translateY(6px);
+                  }
+
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	           HEADER HOME         	    !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  nav.encostado {
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.918),rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.267));
+    padding:0 9.5%;
+    height:76px;
+    z-index: 10;
+  }
+
+      nav.encostado ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.6% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.encostado li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.encostado li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              nav.encostado li.li_menu a {
+                text-decoration: none;
+                font-size:1.25em;
+                color:#fff;
+                font-weight: bold;
+              }
+
+              li#li_4_menu a {
+                color:rgb(2, 99, 180);
+              }
+
+                  /*nav.encostado li#li_4_menu a {
+                    color:rgb(15,105,178);
+                  }*/
+
+              nav.encostado li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                transform: translateY(15px);
+                border-top-left-radius: 2px;
+                border-top-right-radius: 3px;
+              }
+
+      nav.encostado figure {
+        float:right;
+		    transform:translateY(15px);
+      }
+
+          nav.encostado img {
+            width:50px;
+            height:43px;
+          }
+		  
+		  nav.encostado img#imgTT2 {
+			  display:none;
+		  }
+          
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	           HEADER FIXED     	      !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+          
+
+  /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
+  e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
+
+  nav.normal {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.959);
+    height:56px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding:0 9.5%;
+    z-index: 10;
+  }
+
+      nav.normal ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.1% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.normal li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.normal li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              li.li_menu a {
+                text-decoration: none;
+                color:rgb(55,52,53);
+                font-weight: bold;
+              }
+
+                  nav#menu li:hover a {
+                    color:rgb(2, 99, 180);
+                    font-weight: bold;
+                    display:block;
+                  }
+
+                  nav#menu li:hover hr {
+                    display: block;
+                  }
+
+              li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                transform: translateY(14.5px);
+                border-top-left-radius: 1px;
+                border-top-right-radius: 1px;
+              }
+
+      nav.normal form#form_menu {
+        float: right;
+        transform: translateY(13px);
+        color:rgb(33, 33, 33);
+        font-weight: bold;
+        font-size:1.5625em;
+        display:none;
+      }
+
+      nav.normal figure {
+        float:right;
+      }
+
+      nav.normal img {
+        width:53px;
+        height:60px;
+      }
+	  
+	  nav.normal img#imgTT3 {
+		  display:none;
+	  }
+  
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	          HUB HOME SLOGAN     	    !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Estilização do container Main com width máxima e título do site -*/
+
+  article#hub {
+    background-color:rgba(0, 0, 0, 0.267);
+    padding:6.5% 9.5%;
+    box-shadow:0px 6px 14px #000;
+    height:710px;
+  }
+      
+      hgroup#hgroup_hub {
+        outline-color: red;
+        width:50%;
+        transform:translateY(153px);
+      }
+
+          hgroup#hgroup_hub #span1hub {
+            text-align: left;
+            font-size:2.825em;
+            line-height: 65px;
+            color:rgb(252, 252, 252);
+            font-weight: 20;
+          }
+
+          #hgroup_hub .spanAzul {
+            color:rgb(2, 99, 180);
+            font-weight: bold;
+          }
+
+          #hgroup_hub p {
+            position: absolute;
+            right:0;
+            z-index: -3;
+            font-size: 150px;
+            transform: translateY(7px) translateX(600px) scale(1.2);
+            color:rgba(30,30,30,0.45);
+          }
+
+
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	               MAIN              	  !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do content (article) é como se fosse uma div#world -*/
+  /*- Estilização de todos os containers da página -*/
+
+  main#main {
+    position: relative;
+  }
+
+      article.article_main {
+        height:720px;
+      }
+
+     
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	            ARTICLE 1               !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+    
+  article#a1 {
+    padding:4.5% 9.5%;
+    height: 430px;
+    padding:2.5% 9.5%;
+    background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+    
+  }
+
+      #a1 h1 {
+        outline:red;
+        text-align:center;
+        color:rgb(252,252,252);
+        font-size:1.875em;
+        word-spacing:4px;
+      }
+
+      #a1 section {
+        margin-top:72px;
+        text-align:center;
+      }
+
+          #a1 section hgroup {
+            margin:0 10%;
+            border:1px solid rgb(255,255,255);
+            border-radius:10px;
+            background-color: rgba(0, 0, 0, 0.185);
+            cursor: default;
+          }
+
+              #a1 section hgroup:hover {
+                border:1px solid rgb(55,52,53);
+                transition: all .5s;
+              }
+
+              #a1 hgroup h2 {
+                font-weight:bold;
+                color:rgb(252,252,252);
+              }
+
+              #a1 hgroup h3 {
+                color:rgb(220, 220, 220);
+                font-weight:5;
+              }
+
+          #a1 section #hgroup_software {
+            padding:18px 18px;
+            text-align:center;
+            float:left;
+            width:30%;
+            position:relative;
+          }
+
+          #a1 section #hgroup_out {
+            padding:18px 18px;
+            text-align:center;
+            float:right;
+            width:30%;
+            position:relative;
+          }
+
+
+
+
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	            ARTICLE 2               !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  
+
+  article#a2 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a2 img {
+        position:absolute;
+        width:100%;
+        filter: grayscale(75%) opacity(23%);
+        transform:scale(1.47);
+        transition:all .5s;
+      }
+
+          #a2:hover img {
+            transform:scale(1.5);
+            filter:grayscale(80%) opacity(20%);
+          }
+
+      #a2 hgroup {
+        top:38px;
+        left:60px;
+        margin:6.5% 9.5%;
+        position:relative;
+        width:40%;
+
+      }
+
+          #a2 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a2 hgroup hr {
+            border:1px solid rgb(2, 99, 180);
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a2 hgroup p {
+            color:rgb(252,252,252);
+            font-style: italic;
+          }
+
+          #a2 hgroup a{
+            text-decoration: none;
+            text-align:center;
+            width: 26%;
+            background-color:rgb(252,252,252);
+            border-radius:6px;
+            padding:13px 30px;
+            color:rgb(55,52,53);
+          }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 3               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a3 {
+    height: 30px;
+    background-color: rgb(55,52,53);
+    z-index: 60;
+  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 4               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a4 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a4 img {
+        position:absolute;
+        width:100%;
+        height: 140%;
+        top:-250px;
+        filter: grayscale(75%) opacity(33%);
+        transform: scale(1) rotateY(180deg);
+        transition: all .5s;
+      }
+
+          #a4:hover img {
+            transform:scale(1.03) rotateY(180deg);
+            filter:grayscale(80%) opacity(30%);
+            transition: all .5s;
+          }
+
+      #a4 section {
+        float:left;
+        outline: 1px solid red;
+      }
+
+      #a4 hgroup {
+        top:38px;
+        left:60px;
+        margin:4.5% 9.5%;
+        position:relative;
+        width:35%;
+        float: right;
+      }
+
+          #a4 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup hr {
+            border:1px solid yellow;
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a4 hgroup p {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup div {
+            height:120px;
+            width:10px;
+            content: '';
+            transform: translateX(18px);
+            border-left-style: solid;
+            border-left-width: 2px;
+            border-left-color: #fff;
+          }
+
+          #a4 hgroup div#div1 {
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-image: linear-gradient(
+                to bottom,
+                #fff,
+                #fff,
+                yellow
+              )1 70%;
+          }
+
+          #a4 hgroup span#span2019 {
+            color: yellow;
+            font-weight: bold;
+          }
+
+
+  /*
+  /*					█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*		       !	            ARTICLE 5               !
+  /*    			█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  article#a5 {
+    padding:5.9% 9.5%;
+    height:430px;
+    position:relative;
+    background-image: linear-gradient(rgb(251,251,251),rgb(251,251,251),rgba(251, 251, 251, 0));
+  }
+
+      #a5 p {
+        text-align:center;
+        color:rgb(55,52,53);
+        font-size:2.9375em;
+        line-height:52px;
+        font-weight:5px;
+        font-style: italic;
+      }
+
+          #a5 p span.aspas {
+            font-size:1.5em;
+          }
+
+              #a5 p span#aspas2 {
+                transform:translateY(18px);
+              }
+
+          #a5 p span#Steve {
+            color:rgb(2, 99, 180);
+            font-weight:bold;
+            font-size: 24px;
+            float: right;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MAIOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do footer fixo -*/
+
+  footer {
+    outline-color: red;
+    margin-top:35px;
+  }
+
+      article#article_footer {
+        position:relative;
+        height:411.75px;
+        bottom:0;
+        margin-bottom:0;
+        width:100%;
+        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
+        padding: 5% 9.5% 5% 9.5%;
+        font-size: 1em;
+      }
+
+          nav.nav_footer {
+            height: 300px;
+            float:left;
+            padding-top: 58px;
+            padding-bottom:20px;
+            padding-right: 30px;
+            color:rgba(30, 26, 65, 0.3);
+          }
+
+              nav.nav_footer span.span_titles_footer {
+                color:rgb(55,52,53);
+                font-weight: bold;
+                font-size:1.125em;
+              }
+
+              nav.nav_footer a,span.letrinhas {
+                text-decoration: none;
+                color:rgba(136, 133, 134, 0.61);
+              }
+
+          figure#figure_article_footer {
+            height: auto;
+            float:left;
+            color:rgba(30, 26, 65, 0.3);
+            padding:4% 0;
+            width:25%;
+          }
+
+              figure#figure_article_footer img {
+                width:230px;
+                height:181.28820960699px;
+              }
+
+          nav#nav_1_footer {
+            width:16%;
+            padding-left: 5%;
+          }
+
+              img.icons_footer {
+                width:20px;
+                height:20px;
+                transform: translateY(3.5px);
+              }
+
+              img#emailIconFooter {
+                filter: grayscale(30%);
+              }
+
+          nav#nav_2_footer {
+            width:26%;
+            display:inline-block;
+            right:0;
+            padding-left: 3%;
+            text-align: center;
+          }
+
+          nav#nav_3_footer {
+            width:32%;
+            float:right;
+            padding-left: 4.6%;
+            text-align: center;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 1.7% 9.5% 1.7% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 1.7% 9.5% 1.7% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: -1px -1px 20px #000;
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+        transform: translateY(-6px);
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               Animações              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  .spanAzul {
+    animation: chroma 5s infinite;
+    -webkit-animation:chroma 5s infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes chroma {
+    0% {color:rgb(252,252,252);}
+    
+    100% {color:rgb(2, 99, 180);}
+  }
+
+}/* FINAL DO MEDIA MIN-WIDTH 1583px - 1699.9px */
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1582.9px) {
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                RESET                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+  * {
+    color:rgb(134, 131, 132);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-size:1em;
+    font-family: 'Nunito', sans-serif;
+    font-stretch: 100%;
+    line-height: 28px;
+  }
+
+      img#fundoBody {
+        position: fixed;
+        filter:grayscale(100%) opacity(17%);
+        top:-230px;
+        transform:translateX(100px);
+      }
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               PRÉ-SETS               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Pré sets para auxílio da estilização (apenas classes; colocar a classe desejada na tag do html já irá atribuir
+  os efeitos)-*/
+
+  .sticky {position: fixed ; top: 0 ; margin-top:0; width: 100%; height:65px; display:block;}
+  .hide {display:none;}
+  .transparente{opacity: 0.3}
+  .outline {outline: 2px solid red;}
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
+  .p {font-size: 18px;}     
+  .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
+  .topico {color:rgb(15,105,178); font-weight:bold;}
+  .tm:after {content:' \2122';}
+  
+  
+
+
+  div.comgif {
+    background-image: url("../img/CyberRiver.gif");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+  div.semgif {
+    background-image: url("../img/CyberRiver.jpg");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              HEADER LOGO             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Começo da estilização da header que vai aparecer quando a tela estiver encostada no top,vai ser um pouco
+  maior e pode mudar alguns atributos conforme for passando o tempo (logo + menu). O container terá a imagem da
+  logomarca ao centro-*/
+
+  header#header_menu {
+    outline:red;
+    position: absolute;
+    width: 100%;
+  }
+
+      article#logo {
+        padding:0.2% 9.5%;
+        height:40px;
+        background-color: rgba(0, 0, 0, 0.918);
+      }
+
+          section#section_logo {
+            outline-color:red;
+          }
+
+              #section_logo img#phoneIcon {
+                outline:red;
+              }
+
+              #section_logo span {
+                font-size: 0.875em;
+                transform: translateY(-5px);
+                top:3px;
+              }
+    
+              nav#nav_logo {
+              text-align:right;
+              width:10%;
+              float:right;
+              }
+      
+                  img.icons_menu {
+                  width:25px;
+                  height:25px;
+                  display:inline-block;
+                  transform: translateY(6px);
+                  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER HOME              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  nav.encostado {
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.918),rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.267));
+    padding:0 9.5%;
+    height:76px;
+    z-index: 10;
+  }
+
+      nav.encostado ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.6% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.encostado li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.encostado li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              nav.encostado li.li_menu a {
+                text-decoration: none;
+                font-size:1.25em;
+                color:#fff;
+                font-weight: bold;
+              }
+
+              li#li_4_menu a {
+                color:rgb(2, 99, 180);
+              }
+
+              nav#menu li:hover a {
+                color:rgb(2, 99, 180);
+                font-weight: bold;
+                display:block;
+              }
+
+              nav#menu li:hover hr {
+                display: block;
+              }
+
+                  /*nav.encostado li#li_4_menu a {
+                    color:rgb(15,105,178);
+                  }*/
+
+              nav.encostado li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                transform: translateY(15px);
+                border-top-left-radius: 2px;
+                border-top-right-radius: 3px;
+              }
+
+      nav.encostado figure {
+        float:right;
+        transform:translateY(15px);
+      }
+
+          nav.encostado img {
+            width:50px;
+            height:43px;
+          }
+      
+      nav.encostado img#imgTT2 {
+        display:none;
+      }
+          
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER FIXED             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+          
+
+  /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
+  e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
+
+  nav.normal {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.959);
+    height:56px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding:0 9.5%;
+    z-index: 10;
+  }
+
+      nav.normal ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.1% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.normal li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.normal li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              li.li_menu a {
+                text-decoration: none;
+                color:rgb(55,52,53);
+                font-weight: bold;
+              }
+
+                  nav#menu li:hover a {
+                    color:rgb(2, 99, 180);
+                    font-weight: bold;
+                    display:block;
+                  }
+
+                  nav#menu li:hover hr {
+                    display: block;
+                  }
+
+              nav.normal li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                border-top-left-radius: 1px;
+                border-top-right-radius: 1px;
+              }
+
+      nav.normal form#form_menu {
+        float: right;
+        transform: translateY(13px);
+        color:rgb(33, 33, 33);
+        font-weight: bold;
+        font-size:1.5625em;
+        display:none;
+      }
+
+      nav.normal figure {
+        float:right;
+      }
+
+      nav.normal img {
+        width:53px;
+        height:60px;
+      }
+    
+    nav.normal img#imgTT3 {
+      display:none;
+    }
+  
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !            HUB HOME SLOGAN           !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Estilização do container Main com width máxima e título do site -*/
+
+  article#hub {
+    background-color:rgba(0, 0, 0, 0.267);
+    padding:6.5% 9.5%;
+    box-shadow:0px 6px 14px #000;
+    height:710px;
+  }
+      
+      hgroup#hgroup_hub {
+        outline-color: red;
+        width:50%;
+        transform:translateY(153px);
+      }
+
+          hgroup#hgroup_hub #span1hub {
+            text-align: left;
+            font-size:2.325em;
+            line-height: 65px;
+            color:rgb(252, 252, 252);
+            font-weight: 20;
+          }
+
+          #hgroup_hub .spanAzul {
+            color:rgb(2, 99, 180);
+            font-weight: bold;
+          }
+
+          #hgroup_hub p {
+            position: absolute;
+            right:0;
+            z-index: -3;
+            font-size: 140px;
+            transform: translateY(7px) translateX(500px) scale(1.2);
+            color:rgba(30,30,30,0.45);
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                 MAIN                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do content (article) é como se fosse uma div#world -*/
+  /*- Estilização de todos os containers da página -*/
+
+  main#main {
+    position: relative;
+  }
+
+      article.article_main {
+        height:720px;
+      }
+
+     
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 1               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+    
+  article#a1 {
+    padding:4.5% 9.5%;
+    height: 430px;
+    padding:2.5% 9.5%;
+    background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+    
+  }
+
+      #a1 h1 {
+        outline:red;
+        text-align:center;
+        color:rgb(252,252,252);
+        font-size:1.875em;
+        word-spacing:4px;
+      }
+
+      #a1 section {
+        margin-top:72px;
+        text-align:center;
+      }
+
+          #a1 section hgroup {
+            margin:0 10%;
+            border:1px solid rgb(255,255,255);
+            border-radius:10px;
+            background-color: rgba(0, 0, 0, 0.185);
+            cursor: default;
+          }
+
+              #a1 section hgroup:hover {
+                border:1px solid rgb(55,52,53);
+                transition: all .5s;
+              }
+
+              #a1 hgroup h2 {
+                font-weight:bold;
+                color:rgb(252,252,252);
+              }
+
+              #a1 hgroup h3 {
+                color:rgb(220, 220, 220);
+                font-weight:5;
+              }
+
+          #a1 section #hgroup_software {
+            padding:18px 18px;
+            text-align:center;
+            float:left;
+            width:30%;
+            position:relative;
+          }
+
+          #a1 section #hgroup_out {
+            padding:18px 18px;
+            text-align:center;
+            float:right;
+            width:30%;
+            position:relative;
+          }
+
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 2               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  
+
+  article#a2 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a2 img {
+        position:absolute;
+        width:100%;
+        filter: grayscale(75%) opacity(23%);
+        transform:scale(1.47);
+        transition:all .5s;
+      }
+
+          #a2:hover img {
+            transform:scale(1.5);
+            filter:grayscale(80%) opacity(20%);
+          }
+
+      #a2 hgroup {
+        top:38px;
+        left:60px;
+        margin:6.5% 9.5%;
+        position:relative;
+        width:40%;
+
+      }
+
+          #a2 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a2 hgroup hr {
+            border:1px solid rgb(2, 99, 180);
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a2 hgroup p {
+            color:rgb(252,252,252);
+            font-style: italic;
+          }
+
+          #a2 hgroup a{
+            text-decoration: none;
+            text-align:center;
+            width: 26%;
+            background-color:rgb(252,252,252);
+            border-radius:6px;
+            padding:13px 30px;
+            color:rgb(55,52,53);
+          }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 3               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a3 {
+    height: 30px;
+    background-color: rgb(55,52,53);
+    z-index: 60;
+  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 4               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a4 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a4 img {
+        position:absolute;
+        width:100%;
+        height: 140%;
+        top:-250px;
+        filter: grayscale(75%) opacity(33%);
+        transform: scale(1) rotateY(180deg);
+        transition: all .5s;
+      }
+
+          #a4:hover img {
+            transform:scale(1.03) rotateY(180deg);
+            filter:grayscale(80%) opacity(30%);
+            transition: all .5s;
+          }
+
+      #a4 section {
+        float:left;
+        outline: 1px solid red;
+      }
+
+      #a4 hgroup {
+        top:38px;
+        left:60px;
+        margin:4.5% 9.5%;
+        position:relative;
+        width:35%;
+        float: right;
+      }
+
+          #a4 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup hr {
+            border:1px solid yellow;
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a4 hgroup p {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup div {
+            height:120px;
+            width:10px;
+            content: '';
+            transform: translateX(18px);
+            border-left-style: solid;
+            border-left-width: 2px;
+            border-left-color: #fff;
+          }
+
+          #a4 hgroup div#div1 {
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-image: linear-gradient(
+                to bottom,
+                #fff,
+                #fff,
+                yellow
+              )1 70%;
+          }
+
+          #a4 hgroup span#span2019 {
+            color: yellow;
+            font-weight: bold;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 5               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  article#a5 {
+    padding:5.9% 9.5%;
+    height:430px;
+    position:relative;
+    background-image: linear-gradient(rgb(251,251,251),rgb(251,251,251),rgba(251, 251, 251, 0));
+  }
+
+      #a5 p {
+        text-align:center;
+        color:rgb(55,52,53);
+        font-size:2.9375em;
+        line-height:52px;
+        font-weight:5px;
+        font-style: italic;
+      }
+
+          #a5 p span.aspas {
+            font-size:1.5em;
+          }
+
+              #a5 p span#aspas2 {
+                transform:translateY(18px);
+              }
+
+          #a5 p span#Steve {
+            color:rgb(2, 99, 180);
+            font-weight:bold;
+            font-size: 24px;
+            float: right;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MAIOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do footer fixo -*/
+
+  footer {
+    outline-color: red;
+    margin-top:35px;
+  }
+
+      article#article_footer {
+        position:relative;
+        height:411.75px;
+        bottom:0;
+        margin-bottom:0;
+        width:100%;
+        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
+        padding: 5% 9.5% 5% 9.5%;
+        font-size: 1em;
+      }
+
+          nav.nav_footer {
+            height: 300px;
+            float:left;
+            padding-top: 58px;
+            padding-bottom:20px;
+            padding-right: 30px;
+            color:rgba(30, 26, 65, 0.3);
+          }
+
+              nav.nav_footer span.span_titles_footer {
+                color:rgb(55,52,53);
+                font-weight: bold;
+                font-size:1.125em;
+              }
+
+              nav.nav_footer a,span.letrinhas {
+                text-decoration: none;
+                color:rgba(136, 133, 134, 0.61);
+              }
+
+          figure#figure_article_footer {
+            height: auto;
+            float:left;
+            color:rgba(30, 26, 65, 0.3);
+            padding:4% 0;
+            width:25%;
+          }
+
+              figure#figure_article_footer img {
+                width:230px;
+                height:181.28820960699px;
+              }
+
+          nav#nav_1_footer {
+            width:16%;
+            padding-left: 5%;
+          }
+
+              img.icons_footer {
+                width:20px;
+                height:20px;
+                transform: translateY(3.5px);
+              }
+
+              img#emailIconFooter {
+                filter: grayscale(30%);
+              }
+
+          nav#nav_2_footer {
+            width:26%;
+            display:inline-block;
+            right:0;
+            padding-left: 3%;
+            text-align: center;
+          }
+
+          nav#nav_3_footer {
+            width:32%;
+            float:right;
+            padding-left: 3.7%;
+            text-align: center;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 1.5% 9.5% 1.5% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 1.7% 9.5% 1.7% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: -1px -1px 20px #000;
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+        transform: translateY(-6px);
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               Animações              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  .spanAzul {
+    animation: chroma 5s infinite;
+    -webkit-animation:chroma 5s infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes chroma {
+    0% {color:rgb(252,252,252);}
+    
+    100% {color:rgb(2, 99, 180);}
+  }
+
+}/* FINAL DO MEDIA 1400px - 1582.9px */
+
+
+@media only screen and (min-width: 1190px) and (max-width: 1399.9px) {
+
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                RESET                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+  * {
+    color:rgb(134, 131, 132);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-size:1em;
+    font-family: 'Nunito', sans-serif;
+    font-stretch: 100%;
+    line-height: 28px;
+  }
+
+      img#fundoBody {
+        position: fixed;
+        filter:grayscale(100%) opacity(17%);
+        top:-230px;
+        transform:translateX(30px);
+      }
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               PRÉ-SETS               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Pré sets para auxílio da estilização (apenas classes; colocar a classe desejada na tag do html já irá atribuir
+  os efeitos)-*/
+
+  .sticky {position: fixed ; top: 0 ; margin-top:0; width: 100%; height:65px; display:block;}
+  .hide {display:none;}
+  .transparente{opacity: 0.3}
+  .outline {outline: 2px solid red;}
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
+  .p {font-size: 18px;}     
+  .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
+  .topico {color:rgb(15,105,178); font-weight:bold;}
+  .tm:after {content:' \2122';}
+  
+  
+
+
+  div.comgif {
+    background-image: url("../img/CyberRiver.gif");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+  div.semgif {
+    background-image: url("../img/CyberRiver.jpg");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              HEADER LOGO             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Começo da estilização da header que vai aparecer quando a tela estiver encostada no top,vai ser um pouco
+  maior e pode mudar alguns atributos conforme for passando o tempo (logo + menu). O container terá a imagem da
+  logomarca ao centro-*/
+
+  header#header_menu {
+    outline:red;
+    position: absolute;
+    width: 100%;
+  }
+
+      article#logo {
+        padding:0.05% 9.5%;
+        height:40px;
+        background-color: rgba(0, 0, 0, 0.918);
+      }
+
+          section#section_logo {
+            outline-color:red;
+          }
+
+              #section_logo img#phoneIcon {
+                outline:red;
+              }
+
+              #section_logo span {
+                font-size: 0.675em;
+                transform: translateY(-5px);
+                top:3px;
+              }
+    
+              nav#nav_logo {
+              text-align:right;
+              width:10%;
+              float:right;
+              }
+      
+                  img.icons_menu {
+                  width:25px;
+                  height:25px;
+                  display:inline-block;
+                  transform: translateY(6px);
+                  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER HOME              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  nav.encostado {
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.918),rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.267));
+    padding:0 9.5%;
+    height:76px;
+    z-index: 10;
+  }
+
+      nav.encostado ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.6% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.encostado li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.encostado li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              nav.encostado li.li_menu a {
+                text-decoration: none;
+                font-size:1em;
+                color:#fff;
+                font-weight: bold;
+              }
+
+              li#li_4_menu a {
+                color:rgb(2, 99, 180);
+
+              }
+
+              nav#menu li:hover a {
+                color:rgb(2, 99, 180);
+                font-weight: bold;
+                display:block;
+              }
+
+              nav#menu li:hover hr {
+                display: block;
+              }
+
+                  /*nav.encostado li#li_4_menu a {
+                    color:rgb(15,105,178);
+                  }*/
+
+              nav.encostado li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                transform: translateY(15px);
+                border-top-left-radius: 2px;
+                border-top-right-radius: 3px;
+              }
+
+      nav.encostado figure {
+        float:right;
+        transform:translateY(15px);
+      }
+
+          nav.encostado img {
+            width:50px;
+            height:43px;
+          }
+      
+      nav.encostado img#imgTT2 {
+        display:none;
+      }
+          
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER FIXED             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+          
+
+  /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
+  e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
+
+  nav.normal {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.959);
+    height:56px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding:0 9.5%;
+    z-index: 10;
+    display: none;
+  }
+
+      nav.normal ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.1% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.normal li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.normal li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              li.li_menu a {
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 0.9em;
+                color:rgb(55,52,53);
+              }
+
+                  nav#menu li:hover a {
+                    color:rgb(2, 99, 180);
+                    font-weight: bold;
+                    display:block;
+                  }
+
+                  nav#menu li:hover hr {
+                    display: block;
+                  }
+
+              nav.normal li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                border-top-left-radius: 1px;
+                border-top-right-radius: 1px;
+              }
+
+      nav.normal form#form_menu {
+        float: right;
+        transform: translateY(13px);
+        color:rgb(33, 33, 33);
+        font-weight: bold;
+        font-size:1.5625em;
+        display:none;
+      }
+
+      nav.normal figure {
+        float:right;
+      }
+
+      nav.normal img {
+        width:53px;
+        height:60px;
+      }
+    
+    nav.normal img#imgTT3 {
+      display:none;
+    }
+  
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !            HUB HOME SLOGAN           !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Estilização do container Main com width máxima e título do site -*/
+
+  article#hub {
+    background-color:rgba(0, 0, 0, 0.267);
+    padding:6.5% 9.5%;
+    box-shadow:0px 6px 14px #000;
+    height:710px;
+  }
+      
+      hgroup#hgroup_hub {
+        outline-color: red;
+        width:50%;
+        transform:translateY(203px);
+      }
+
+          hgroup#hgroup_hub #span1hub {
+            text-align: left;
+            font-size:1.925em;
+            line-height: 65px;
+            color:rgb(252, 252, 252);
+            font-weight: 20;
+          }
+
+          #hgroup_hub .spanAzul {
+            color:rgb(2, 99, 180);
+            font-weight: bold;
+          }
+
+          #hgroup_hub p {
+            position: absolute;
+            right:0;
+            z-index: -3;
+            font-size: 110px;
+            transform: translateY(7px) translateX(400px) scale(1.2);
+            color:rgba(30,30,30,0.45);
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                 MAIN                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do content (article) é como se fosse uma div#world -*/
+  /*- Estilização de todos os containers da página -*/
+
+  main#main {
+    position: relative;
+  }
+
+      article.article_main {
+        height:520px;
+      }
+
+     
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 1               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+    
+  article#a1 {
+    padding:4.5% 9.5%;
+    height: 430px;
+    padding:2.5% 9.5%;
+    background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+    
+  }
+
+      #a1 h1 {
+        outline:red;
+        text-align:center;
+        color:rgb(252,252,252);
+        font-size:1.875em;
+        word-spacing:4px;
+      }
+
+      #a1 section {
+        margin-top:72px;
+        text-align:center;
+      }
+
+          #a1 section hgroup {
+            margin:0 10%;
+            border:1px solid rgb(255,255,255);
+            border-radius:10px;
+            background-color: rgba(0, 0, 0, 0.185);
+            cursor: default;
+          }
+
+              #a1 section hgroup:hover {
+                border:1px solid rgb(55,52,53);
+                transition: all .5s;
+              }
+
+              #a1 hgroup h2 {
+                font-weight:bold;
+                color:rgb(252,252,252);
+              }
+
+              #a1 hgroup h3 {
+                color:rgb(220, 220, 220);
+                font-weight:5;
+              }
+
+          #a1 section #hgroup_software {
+            padding:18px 18px;
+            text-align:center;
+            float:left;
+            width:30%;
+            position:relative;
+          }
+
+          #a1 section #hgroup_out {
+            padding:18px 18px;
+            text-align:center;
+            float:right;
+            width:30%;
+            position:relative;
+          }
+
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 2               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  
+
+  article#a2 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a2 img {
+        position:absolute;
+        width:100%;
+        filter: grayscale(75%) opacity(23%);
+        transform:scale(1.47);
+        transition:all .5s;
+      }
+
+          #a2:hover img {
+            transform:scale(1.5);
+            filter:grayscale(80%) opacity(20%);
+          }
+
+      #a2 hgroup {
+        top:38px;
+        left:60px;
+        margin:6.5% 9.5%;
+        position:relative;
+        width:40%;
+
+      }
+
+          #a2 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a2 hgroup hr {
+            border:1px solid rgb(2, 99, 180);
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a2 hgroup p {
+            color:rgb(252,252,252);
+            font-style: italic;
+          }
+
+          #a2 hgroup a{
+            text-decoration: none;
+            text-align:center;
+            width: 26%;
+            background-color:rgb(252,252,252);
+            border-radius:6px;
+            padding:13px 30px;
+            color:rgb(55,52,53);
+          }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 3               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a3 {
+    height: 30px;
+    background-color: rgb(55,52,53);
+    z-index: 60;
+  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 4               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a4 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a4 img {
+        position:absolute;
+        width:100%;
+        height: 140%;
+        top:-150px;
+        filter: grayscale(75%) opacity(33%);
+        transform: scale(1) rotateY(180deg);
+        transition: all .5s;
+      }
+
+          #a4:hover img {
+            transform:scale(1.03) rotateY(180deg);
+            filter:grayscale(80%) opacity(30%);
+            transition: all .5s;
+          }
+
+      #a4 section {
+        float:left;
+        outline: 1px solid red;
+      }
+
+      #a4 hgroup {
+        top:38px;
+        left:60px;
+        margin:4.5% 9.5%;
+        position:relative;
+        width:35%;
+        float: right;
+      }
+
+          #a4 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup hr {
+            border:1px solid yellow;
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a4 hgroup p {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup div {
+            height:120px;
+            width:10px;
+            content: '';
+            transform: translateX(18px);
+            border-left-style: solid;
+            border-left-width: 2px;
+            border-left-color: #fff;
+          }
+
+          #a4 hgroup div#div1 {
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-image: linear-gradient(
+                to bottom,
+                #fff,
+                #fff,
+                yellow
+              )1 70%;
+          }
+
+          #a4 hgroup span#span2019 {
+            color: yellow;
+            font-weight: bold;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 5               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  article#a5 {
+    padding:5.9% 9.5%;
+    height:430px;
+    position:relative;
+    background-image: linear-gradient(rgb(251,251,251),rgb(251,251,251),rgba(251, 251, 251, 0));
+  }
+
+      #a5 p {
+        text-align:center;
+        color:rgb(55,52,53);
+        font-size:2.9375em;
+        line-height:52px;
+        font-weight:5px;
+        font-style: italic;
+      }
+
+          #a5 p span.aspas {
+            font-size:1.5em;
+          }
+
+              #a5 p span#aspas2 {
+                transform:translateY(18px);
+              }
+
+          #a5 p span#Steve {
+            color:rgb(2, 99, 180);
+            font-weight:bold;
+            font-size: 24px;
+            float: right;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MAIOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do footer fixo -*/
+
+  footer {
+    outline-color: red;
+    margin-top:35px;
+  }
+
+      article#article_footer {
+        position:relative;
+        height:350.75px;
+        bottom:0;
+        margin-bottom:0;
+        width:100%;
+        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
+        padding: 5% 9.5% 5% 9.5%;
+        font-size: 1em;
+      }
+
+          nav.nav_footer {
+            height: 300px;
+            float:left;
+            padding-top: 58px;
+            padding-bottom:20px;
+            padding-right: 30px;
+            color:rgba(30, 26, 65, 0.3);
+          }
+
+              nav.nav_footer span.span_titles_footer {
+                color:rgb(55,52,53);
+                font-weight: bold;
+                font-size:1.125em;
+              }
+
+              nav.nav_footer a,span.letrinhas {
+                text-decoration: none;
+                color:rgba(136, 133, 134, 0.61);
+              }
+
+          figure#figure_article_footer {
+            height: auto;
+            float:left;
+            color:rgba(30, 26, 65, 0.3);
+            padding:4% 0;
+            width:25%;
+          }
+
+              figure#figure_article_footer img {
+                width:230px;
+                height:181.28820960699px;
+              }
+
+          nav#nav_1_footer {
+            width:16%;
+            padding-left: 5%;
+          }
+
+              img.icons_footer {
+                width:20px;
+                height:20px;
+                transform: translateY(3.5px);
+              }
+
+              img#emailIconFooter {
+                filter: grayscale(30%);
+              }
+
+          nav#nav_2_footer {
+            width:26%;
+            display:inline-block;
+            right:0;
+            padding-left: 1%;
+            text-align: center;
+          }
+
+          nav#nav_3_footer {
+            width:32%;
+            float:right;
+            text-align: center;
+          }
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 2% 9.5% 2% 9.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: -1px -1px 20px #000;
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+        transform: translateY(-6px);
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               Animações              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+}/* FINAL DO MEDIA 1233px - 1399.9px */
+
+@media only screen and (min-width: 1000px) and (max-width: 1189.9px) {
+
+
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                RESET                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+  * {
+    color:rgb(134, 131, 132);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-size:1em;
+    font-family: 'Nunito', sans-serif;
+    font-stretch: 100%;
+    line-height: 28px;
+  }
+
+      img#fundoBody {
+        position: fixed;
+        filter:grayscale(100%) opacity(17%);
+        top:-240px;
+        transform:translateX(-75px);
+      }
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               PRÉ-SETS               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Pré sets para auxílio da estilização (apenas classes; colocar a classe desejada na tag do html já irá atribuir
+  os efeitos)-*/
+
+  .sticky {position: fixed ; top: 0 ; margin-top:0; width: 100%; height:65px; display:block;}
+  .hide {display:none;}
+  .transparente{opacity: 0.3}
+  .outline {outline: 2px solid red;}
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
+  .p {font-size: 18px;}     
+  .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
+  .topico {color:rgb(15,105,178); font-weight:bold;}
+  .tm:after {content:' \2122';}
+  
+  
+
+
+  div.comgif {
+    background-image: url("../img/CyberRiver.gif");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+  div.semgif {
+    background-image: url("../img/CyberRiver.jpg");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+  }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              HEADER LOGO             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Começo da estilização da header que vai aparecer quando a tela estiver encostada no top,vai ser um pouco
+  maior e pode mudar alguns atributos conforme for passando o tempo (logo + menu). O container terá a imagem da
+  logomarca ao centro-*/
+
+  header#header_menu {
+    outline:red;
+    position: absolute;
+    width: 100%;
+  }
+
+      article#logo {
+        padding:0.05% 5.5%;
+        height:40px;
+        background-color: rgba(0, 0, 0, 0.918);
+      }
+
+          section#section_logo {
+            outline-color:red;
+          }
+
+              #section_logo img#phoneIcon {
+                outline:red;
+              }
+
+              #section_logo span {
+                font-size: 0.675em;
+                transform: translateY(-5px);
+                top:3px;
+              }
+    
+              nav#nav_logo {
+              text-align:right;
+              width:10%;
+              float:right;
+              }
+      
+                  img.icons_menu {
+                  width:25px;
+                  height:25px;
+                  display:inline-block;
+                  transform: translateY(6px);
+                  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER HOME              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  nav.encostado {
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.918),rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.267));
+    padding:0 5.5%;
+    height:76px;
+    z-index: 10;
+  }
+
+      nav.encostado ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.6% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.encostado li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.encostado li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              nav.encostado li.li_menu a {
+                text-decoration: none;
+                font-size:1em;
+                color:#fff;
+                font-weight: bold;
+              }
+
+              li#li_4_menu a {
+                color:rgb(2, 99, 180);
+
+              }
+
+              nav#menu li:hover a {
+                color:rgb(2, 99, 180);
+                font-weight: bold;
+                display:block;
+              }
+
+              nav#menu li:hover hr {
+                display: block;
+              }
+
+                  /*nav.encostado li#li_4_menu a {
+                    color:rgb(15,105,178);
+                  }*/
+
+              nav.encostado li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                transform: translateY(15px);
+                border-top-left-radius: 2px;
+                border-top-right-radius: 3px;
+              }
+
+      nav.encostado figure {
+        float:right;
+        transform:translateY(15px);
+      }
+
+          nav.encostado img {
+            width:50px;
+            height:43px;
+          }
+      
+      nav.encostado img#imgTT2 {
+        display:none;
+      }
+          
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER FIXED             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+          
+
+  /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
+  e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
+
+  nav.normal {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.959);
+    height:56px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding:0 5.5%;
+    z-index: 10;
+    display: none;
+  }
+
+      nav.normal ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.1% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.normal li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.normal li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              li.li_menu a {
+                text-decoration: none;
+                font-size: 0.9em;
+                color:rgb(55,52,53);
+                font-weight: bold;
+              }
+
+                  nav#menu li:hover a {
+                    color:rgb(2, 99, 180);
+                    font-weight: bold;
+                    display:block;
+                  }
+
+                  nav#menu li:hover hr {
+                    display: block;
+                  }
+
+              nav.normal li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                border-top-left-radius: 1px;
+                border-top-right-radius: 1px;
+              }
+
+      nav.normal form#form_menu {
+        float: right;
+        transform: translateY(13px);
+        color:rgb(33, 33, 33);
+        font-weight: bold;
+        font-size:1.5625em;
+        display:none;
+      }
+
+      nav.normal figure {
+        float:right;
+      }
+
+      nav.normal img {
+        width:53px;
+        height:60px;
+      }
+    
+    nav.normal img#imgTT3 {
+      display:none;
+    }
+  
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !            HUB HOME SLOGAN           !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Estilização do container Main com width máxima e título do site -*/
+
+  article#hub {
+    background-color:rgba(0, 0, 0, 0.267);
+    padding:6.5% 5.5%;
+    box-shadow:0px 6px 14px #000;
+    height:710px;
+  }
+      
+      hgroup#hgroup_hub {
+        outline-color: red;
+        width:50%;
+        transform:translateY(203px);
+      }
+
+          hgroup#hgroup_hub #span1hub {
+            text-align: left;
+            font-size:1.925em;
+            line-height: 65px;
+            color:rgb(252, 252, 252);
+            font-weight: 20;
+          }
+
+          #hgroup_hub .spanAzul {
+            color:rgb(2, 99, 180);
+            font-weight: bold;
+          }
+
+          #hgroup_hub p {
+            position: absolute;
+            right:0;
+            z-index: -3;
+            font-size: 110px;
+            transform: translateY(7px) translateX(400px) scale(1.2);
+            color:rgba(30,30,30,0.45);
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                 MAIN                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do content (article) é como se fosse uma div#world -*/
+  /*- Estilização de todos os containers da página -*/
+
+  main#main {
+    position: relative;
+  }
+
+      article.article_main {
+        height:520px;
+      }
+
+     
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 1               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+    
+  article#a1 {
+    padding:4.5% 5.5%;
+    height: 430px;
+    padding:2.5% 9.5%;
+    background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+    
+  }
+
+      #a1 h1 {
+        outline:red;
+        text-align:center;
+        color:rgb(252,252,252);
+        font-size:1.875em;
+        word-spacing:4px;
+      }
+
+      #a1 section {
+        margin-top:72px;
+        text-align:center;
+      }
+
+          #a1 section hgroup {
+            margin:0 10%;
+            border:1px solid rgb(255,255,255);
+            border-radius:10px;
+            background-color: rgba(0, 0, 0, 0.185);
+            cursor: default;
+          }
+
+              #a1 section hgroup:hover {
+                border:1px solid rgb(55,52,53);
+                transition: all .5s;
+              }
+
+              #a1 hgroup h2 {
+                font-weight:bold;
+                color:rgb(252,252,252);
+              }
+
+              #a1 hgroup h3 {
+                color:rgb(220, 220, 220);
+                font-weight:5;
+              }
+
+          #a1 section #hgroup_software {
+            padding:32px 18px;
+            text-align:center;
+            float:left;
+            width:30%;
+            position:relative;
+          }
+
+          #a1 section #hgroup_out {
+            padding:18px 18px;
+            text-align:center;
+            float:right;
+            width:30%;
+            position:relative;
+          }
+
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 2               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  
+
+  article#a2 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a2 img {
+        position:absolute;
+        width:100%;
+        filter: grayscale(75%) opacity(23%);
+        transform:scale(1.47);
+        transition:all .5s;
+      }
+
+          #a2:hover img {
+            transform:scale(1.5);
+            filter:grayscale(80%) opacity(20%);
+          }
+
+      #a2 hgroup {
+        top:38px;
+        left:60px;
+        margin:3.5% 9.5%;
+        position:relative;
+        width:40%;
+
+      }
+
+          #a2 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a2 hgroup hr {
+            border:1px solid rgb(2, 99, 180);
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a2 hgroup p {
+            color:rgb(252,252,252);
+            font-style: italic;
+          }
+
+          #a2 hgroup a{
+            text-decoration: none;
+            text-align:center;
+            width: 26%;
+            background-color:rgb(252,252,252);
+            border-radius:6px;
+            padding:13px 30px;
+            color:rgb(55,52,53);
+          }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 3               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a3 {
+    height: 30px;
+    background-color: rgb(55,52,53);
+    z-index: 60;
+  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 4               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a4 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a4 img {
+        position:absolute;
+        width:100%;
+        height: 140%;
+        top:-150px;
+        filter: grayscale(75%) opacity(33%);
+        transform: scale(1) rotateY(180deg);
+        transition: all .5s;
+      }
+
+          #a4:hover img {
+            transform:scale(1.03) rotateY(180deg);
+            filter:grayscale(80%) opacity(30%);
+            transition: all .5s;
+          }
+
+      #a4 section {
+        float:left;
+        outline: 1px solid red;
+      }
+
+      #a4 hgroup {
+        top:38px;
+        left:60px;
+        margin:4.5% 9.5%;
+        position:relative;
+        width:35%;
+        float: right;
+      }
+
+          #a4 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup hr {
+            border:1px solid yellow;
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a4 hgroup p {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup div {
+            height:120px;
+            width:10px;
+            content: '';
+            transform: translateX(18px);
+            border-left-style: solid;
+            border-left-width: 2px;
+            border-left-color: #fff;
+          }
+
+          #a4 hgroup div#div1 {
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-image: linear-gradient(
+                to bottom,
+                #fff,
+                #fff,
+                yellow
+              )1 70%;
+          }
+
+          #a4 hgroup span#span2019 {
+            color: yellow;
+            font-weight: bold;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 5               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  article#a5 {
+    padding:5.9% 5.5%;
+    height:430px;
+    position:relative;
+    background-image: linear-gradient(rgb(251,251,251),rgb(251,251,251),rgba(251, 251, 251, 0));
+  }
+
+      #a5 p {
+        text-align:center;
+        color:rgb(55,52,53);
+        font-size:2.0375em;
+        line-height:52px;
+        font-weight:5px;
+        font-style: italic;
+      }
+
+          #a5 p span.aspas {
+            font-size:1.5em;
+          }
+
+              #a5 p span#aspas2 {
+                transform:translateY(18px);
+              }
+
+          #a5 p span#Steve {
+            color:rgb(2, 99, 180);
+            font-weight:bold;
+            font-size: 24px;
+            float: right;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MAIOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do footer fixo -*/
+
+  footer {
+    outline-color: red;
+    margin-top:35px;
+  }
+
+      article#article_footer {
+        position:relative;
+        height:350.75px;
+        bottom:0;
+        margin-bottom:0;
+        width:100%;
+        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
+        padding: 5% 5.5% 5% 5.5%;
+        font-size: 1em;
+      }
+
+          nav.nav_footer {
+            height: 300px;
+            float:left;
+            padding-top: 58px;
+            padding-bottom:20px;
+            padding-right: 30px;
+            color:rgba(30, 26, 65, 0.3);
+          }
+
+              nav.nav_footer span.span_titles_footer {
+                color:rgb(55,52,53);
+                font-weight: bold;
+                font-size:1.125em;
+              }
+
+              nav.nav_footer a,span.letrinhas {
+                text-decoration: none;
+                color:rgba(136, 133, 134, 0.61);
+              }
+
+          figure#figure_article_footer {
+            height: auto;
+            float:left;
+            color:rgba(30, 26, 65, 0.3);
+            padding:4% 0;
+            width:20%;
+          }
+
+              figure#figure_article_footer img {
+                width:150px;
+                height:118.23144104804px;
+                transform: translateY(50px) translateX(20px);
+              }
+
+          nav#nav_1_footer {
+            width:16%;
+            padding-left: 5%;
+          }
+
+              img.icons_footer {
+                width:20px;
+                height:20px;
+                transform: translateY(3.5px);
+              }
+
+              img#emailIconFooter {
+                filter: grayscale(30%);
+              }
+
+          nav#nav_2_footer {
+            width:26%;
+            display:inline-block;
+            right:0;
+            padding-left: 1%;
+            text-align: center;
+          }
+
+          nav#nav_3_footer {
+            width:36%;
+            float:right;
+            text-align: center;
+          }
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 2.38% 5.5% 2.38% 5.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: -1px -1px 20px #000;
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+        transform: translateY(-6px);
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               Animações              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+}/* FINAL DO MEDIA 1000px - 1189.9px */
+
+@media only screen and (max-width: 999.9px) {
+
+
+
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                RESET                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+  * {
+    color:rgb(134, 131, 132);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    font-size:1em;
+    font-family: 'Nunito', sans-serif;
+    font-stretch: 100%;
+    line-height: 28px;
+  }
+
+      img#fundoBody {
+        position: fixed;
+        filter:grayscale(100%) opacity(17%);
+        top:-240px;
+        transform:translateX(-75px);
+      }
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               PRÉ-SETS               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Pré sets para auxílio da estilização (apenas classes; colocar a classe desejada na tag do html já irá atribuir
+  os efeitos)-*/
+
+  .sticky {position: fixed ; top: 0 ; margin-top:0; width: 100%; height:65px; display:block;}
+  .hide {display:none;}
+  .transparente{opacity: 0.3}
+  .outline {outline: 2px solid red;}
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
+  .p {font-size: 18px;}     
+  .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
+  .topico {color:rgb(15,105,178); font-weight:bold;}
+  .tm:after {content:' \2122';}
+  
+  
+
+
+  div.comgif {
+    background-image: url("../img/CyberRiver.gif");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+    display: none;
+  }
+
+  div.semgif {
+    background-image: url("../img/CyberRiver.jpg");
+    background-size:100% 110%;
+    background-repeat:no-repeat;
+    position: relative;
+    height:710px;
+    display: none;
+  }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              HEADER LOGO             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Começo da estilização da header que vai aparecer quando a tela estiver encostada no top,vai ser um pouco
+  maior e pode mudar alguns atributos conforme for passando o tempo (logo + menu). O container terá a imagem da
+  logomarca ao centro-*/
+
+  header#header_menu {
+    outline:red;
+    position: absolute;
+    width: 100%;
+    height
+  }
+
+      article#logo {
+        padding:0.05% 5.5%;
+        height:40px;
+        background-color: rgba(0, 0, 0, 0.918);
+      }
+
+          section#section_logo {
+            outline-color:red;
+          }
+
+              #section_logo img#phoneIcon {
+                outline:red;
+              }
+
+              #section_logo span {
+                font-size: 0.675em;
+                transform: translateY(-5px);
+                top:3px;
+              }
+    
+              nav#nav_logo {
+              text-align:right;
+              width:10%;
+              float:right;
+              }
+      
+                  img.icons_menu {
+                  width:25px;
+                  height:25px;
+                  display:inline-block;
+                  transform: translateY(6px);
+                  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER HOME              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  nav.encostado {
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.918),rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.267));
+    padding:0 5.5%;
+    height:76px;
+    z-index: 10;
+    display: none;
+  }
+
+      nav.encostado ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 1.6% 0 0 0;
+        height: 100%;
+        width:45%;
+        display:inline-block;
+      }
+
+          nav.encostado li.li_menu {
+            display: inline-block;
+            font-size: 0.9375em;
+            position: relative;
+          }
+
+          nav.encostado li.li_menu:not(last-child) {
+            margin-right: 10%;
+          }
+
+              nav.encostado li.li_menu a {
+                text-decoration: none;
+                font-size:1em;
+                color:#fff;
+                font-weight: bold;
+              }
+
+              li#li_4_menu a {
+                color:rgb(2, 99, 180);
+
+              }
+
+              nav#menu li:hover a {
+                color:rgb(2, 99, 180);
+                font-weight: bold;
+                display:block;
+              }
+
+              nav#menu li:hover hr {
+                display: block;
+              }
+
+                  /*nav.encostado li#li_4_menu a {
+                    color:rgb(15,105,178);
+                  }*/
+
+              nav.encostado li.li_menu hr {
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                transform: translateY(15px);
+                border-top-left-radius: 2px;
+                border-top-right-radius: 3px;
+              }
+
+      nav.encostado figure {
+        float:right;
+        transform:translateY(15px);
+      }
+
+          nav.encostado img {
+            width:50px;
+            height:43px;
+          }
+      
+      nav.encostado img#imgTT2 {
+        display:none;
+      }
+          
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             HEADER FIXED             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+          
+
+  /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
+  e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
+
+  nav.normal {
+    background-color: rgba(255, 255, 255, 0.959);
+    height:56px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding:0 5.5%;
+    position: fixed;
+    top:0;
+    margin-top: 0;
+    width:100%;
+    z-index: 10;
+    text-align: center;
+  }
+
+      nav.normal ul#ul_menu {
+        left:0;
+        position:relative;
+        padding: 13px 0 0 0;
+        height: 100%;
+        width:85%;
+        display:inline-block;
+        text-align: center;
+        outline: 1px solid red;
+      }
+
+          nav.normal li.li_menu {
+            display: inline-block;
+            font-size: 15px;
+            position: relative;
+            width: 24%;
+          }
+
+              li.li_menu a {
+                text-decoration: none;
+                color:rgb(55,52,53);
+              }
+
+                  nav#menu li:hover a {
+                    color:rgb(2, 99, 180);
+                    font-weight: bold;
+                    display:block;
+                  }
+
+                  nav#menu li:hover hr {
+                    display: none;
+                  }
+
+              li.li_menu hr {
+                display: none;
+                position: absolute;
+                bottom: 0;
+                border: 2px solid rgb(2, 99, 180);
+                width: 100%;
+                border-top-left-radius: 1px;
+                border-top-right-radius: 1px;
+              }
+
+              nav.normal img {
+                display: none;
+              }
+  
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !            HUB HOME SLOGAN           !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  /*- Estilização do container Main com width máxima e título do site -*/
+
+  article#hub {
+    background-color:rgba(0, 0, 0, 0.267);
+    padding:6.5% 5.5%;
+    box-shadow:0px 6px 14px #000;
+    height:710px;
+  }
+      
+      hgroup#hgroup_hub {
+        outline-color: red;
+        width:50%;
+        transform:translateY(203px);
+      }
+
+          hgroup#hgroup_hub #span1hub {
+            text-align: left;
+            font-size:1.925em;
+            line-height: 65px;
+            color:rgb(252, 252, 252);
+            font-weight: 20;
+          }
+
+          #hgroup_hub .spanAzul {
+            color:rgb(2, 99, 180);
+            font-weight: bold;
+          }
+
+          #hgroup_hub p {
+            position: absolute;
+            right:0;
+            z-index: -3;
+            font-size: 110px;
+            transform: translateY(7px) translateX(400px) scale(1.2);
+            color:rgba(30,30,30,0.45);
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !                 MAIN                 !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do content (article) é como se fosse uma div#world -*/
+  /*- Estilização de todos os containers da página -*/
+
+  main#main {
+    position: relative;
+  }
+
+      article.article_main {
+        height:520px;
+      }
+
+     
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 1               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+    
+  article#a1 {
+    padding:4.5% 5.5%;
+    height: 430px;
+    padding:2.5% 9.5%;
+    background-image: linear-gradient(to right, rgba(2, 99, 180,0.8), rgb(2, 99, 180), rgba(2, 99, 180,0.8));
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+    
+  }
+
+      #a1 h1 {
+        outline:red;
+        text-align:center;
+        color:rgb(252,252,252);
+        font-size:1.875em;
+        word-spacing:4px;
+      }
+
+      #a1 section {
+        margin-top:72px;
+        text-align:center;
+      }
+
+          #a1 section hgroup {
+            margin:0 10%;
+            border:1px solid rgb(255,255,255);
+            border-radius:10px;
+            background-color: rgba(0, 0, 0, 0.185);
+            cursor: default;
+          }
+
+              #a1 section hgroup:hover {
+                border:1px solid rgb(55,52,53);
+                transition: all .5s;
+              }
+
+              #a1 hgroup h2 {
+                font-weight:bold;
+                color:rgb(252,252,252);
+              }
+
+              #a1 hgroup h3 {
+                color:rgb(220, 220, 220);
+                font-weight:5;
+              }
+
+          #a1 section #hgroup_software {
+            padding:32px 18px;
+            text-align:center;
+            float:left;
+            width:30%;
+            position:relative;
+          }
+
+          #a1 section #hgroup_out {
+            padding:18px 18px;
+            text-align:center;
+            float:right;
+            width:30%;
+            position:relative;
+          }
+
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 2               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  
+
+  article#a2 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a2 img {
+        position:absolute;
+        width:100%;
+        filter: grayscale(75%) opacity(23%);
+        transform:scale(1.47);
+        transition:all .5s;
+      }
+
+          #a2:hover img {
+            transform:scale(1.5);
+            filter:grayscale(80%) opacity(20%);
+          }
+
+      #a2 hgroup {
+        top:38px;
+        left:60px;
+        margin:3.5% 9.5%;
+        position:relative;
+        width:40%;
+
+      }
+
+          #a2 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a2 hgroup hr {
+            border:1px solid rgb(2, 99, 180);
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a2 hgroup p {
+            color:rgb(252,252,252);
+            font-style: italic;
+          }
+
+          #a2 hgroup a{
+            text-decoration: none;
+            text-align:center;
+            width: 26%;
+            background-color:rgb(252,252,252);
+            border-radius:6px;
+            padding:13px 30px;
+            color:rgb(55,52,53);
+          }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 3               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a3 {
+    height: 30px;
+    background-color: rgb(55,52,53);
+    z-index: 60;
+  }
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 4               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+  article#a4 {
+    position:relative;
+    overflow:hidden;
+    background-color:black;
+  }
+
+      #a4 img {
+        position:absolute;
+        width:100%;
+        height: 140%;
+        top:-150px;
+        filter: grayscale(75%) opacity(33%);
+        transform: scale(1) rotateY(180deg);
+        transition: all .5s;
+      }
+
+          #a4:hover img {
+            transform:scale(1.03) rotateY(180deg);
+            filter:grayscale(80%) opacity(30%);
+            transition: all .5s;
+          }
+
+      #a4 section {
+        float:left;
+        outline: 1px solid red;
+      }
+
+      #a4 hgroup {
+        top:38px;
+        left:60px;
+        margin:4.5% 9.5%;
+        position:relative;
+        width:35%;
+        float: right;
+      }
+
+          #a4 hgroup h1 {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup hr {
+            border:1px solid yellow;
+            border-radius:3px;
+            width:7%;
+          }
+
+          #a4 hgroup p {
+            color:rgb(252,252,252);
+          }
+
+          #a4 hgroup div {
+            height:120px;
+            width:10px;
+            content: '';
+            transform: translateX(18px);
+            border-left-style: solid;
+            border-left-width: 2px;
+            border-left-color: #fff;
+          }
+
+          #a4 hgroup div#div1 {
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-image: linear-gradient(
+                to bottom,
+                #fff,
+                #fff,
+                yellow
+              )1 70%;
+          }
+
+          #a4 hgroup span#span2019 {
+            color: yellow;
+            font-weight: bold;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !              ARTICLE 5               !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  article#a5 {
+    padding:5.9% 5.5%;
+    height:430px;
+    position:relative;
+    background-image: linear-gradient(rgb(251,251,251),rgb(251,251,251),rgba(251, 251, 251, 0));
+  }
+
+      #a5 p {
+        text-align:center;
+        color:rgb(55,52,53);
+        font-size:2.0375em;
+        line-height:52px;
+        font-weight:5px;
+        font-style: italic;
+      }
+
+          #a5 p span.aspas {
+            font-size:1.5em;
+          }
+
+              #a5 p span#aspas2 {
+                transform:translateY(18px);
+              }
+
+          #a5 p span#Steve {
+            color:rgb(2, 99, 180);
+            font-weight:bold;
+            font-size: 24px;
+            float: right;
+          }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MAIOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  /*- Estilização do footer fixo -*/
+
+  footer {
+    outline-color: red;
+    margin-top:35px;
+  }
+
+      article#article_footer {
+        position:relative;
+        height:350.75px;
+        bottom:0;
+        margin-bottom:0;
+        width:100%;
+        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
+        padding: 5% 5.5% 5% 5.5%;
+        font-size: 1em;
+      }
+
+          nav.nav_footer {
+            height: 300px;
+            float:left;
+            padding-top: 58px;
+            padding-bottom:20px;
+            padding-right: 30px;
+            color:rgba(30, 26, 65, 0.3);
+          }
+
+              nav.nav_footer span.span_titles_footer {
+                color:rgb(55,52,53);
+                font-weight: bold;
+                font-size:1.125em;
+              }
+
+              nav.nav_footer a,span.letrinhas {
+                text-decoration: none;
+                color:rgba(136, 133, 134, 0.61);
+              }
+
+          figure#figure_article_footer {
+            height: auto;
+            float:left;
+            color:rgba(30, 26, 65, 0.3);
+            padding:4% 0;
+            width:20%;
+          }
+
+              figure#figure_article_footer img {
+                width:150px;
+                height:118.23144104804px;
+                transform: translateY(50px) translateX(20px);
+              }
+
+          nav#nav_1_footer {
+            width:16%;
+            padding-left: 5%;
+          }
+
+              img.icons_footer {
+                width:20px;
+                height:20px;
+                transform: translateY(3.5px);
+              }
+
+              img#emailIconFooter {
+                filter: grayscale(30%);
+              }
+
+          nav#nav_2_footer {
+            width:26%;
+            display:inline-block;
+            right:0;
+            padding-left: 1%;
+            text-align: center;
+          }
+
+          nav#nav_3_footer {
+            width:36%;
+            float:right;
+            text-align: center;
+          }
+
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !             FOOTER MENOR             !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+
+
+  section#section_footer {
+    background-color:rgb(40, 39, 39);
+    padding: 2.38% 5.5% 2.38% 5.5%;
+    height:80px;
+    width:100%;
+    font-size: 0.875em;
+    text-align: justify;
+    position: relative;
+    bottom:0;
+    margin-bottom: 0;
+    box-shadow: -1px -1px 20px #000;
+  }
+  
+      nav#nav_section_footer {
+        float:right;
+        transform: translateY(-6px);
+      }
+    
+      nav#nav_section_footer img.icons_footer {
+        width:33px;
+        height:33px;
+        position:relative;
+        display:inline-block;
+        }
+
+
+  /*
+  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+  /*           !               Animações              !
+  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+  */
+}/* FINAL DO MEDIA 0px - 999.9px
+
