@@ -42,33 +42,33 @@ a { text-decoration: none; }
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !                HEADER                !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */ 
+    */
 
     header {
       position: relative;
       height: 56px;
     }
- 
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !             HEADER FIXED             !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-            
-  
+
+
     /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
     e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
-  
+
   nav.normal {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.959);
@@ -142,7 +142,7 @@ a { text-decoration: none; }
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
@@ -188,7 +188,7 @@ a { text-decoration: none; }
       main article:first-child section {
         margin-top: 59px;
         word-wrap: break-word;
-        
+
       }
 
           main article:first-child figure {
@@ -209,7 +209,7 @@ a { text-decoration: none; }
             float:right;
             width:70%;
             text-align: justify;
-            
+
             margin-top: 0px;
           }
 
@@ -235,7 +235,7 @@ a { text-decoration: none; }
 
       div#fundoArt {
         position: fixed;
-        background-image: url("../img/fundoMVV.jpg");
+        background-image: url("img/fundoMVV.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -278,7 +278,7 @@ a { text-decoration: none; }
                 color:rgb(252,252,252);
                 font-size: 33px;
                 font-weight: 5;
-                
+
               }
 
               main article#a2 section hgroup h4 {
@@ -453,11 +453,11 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -485,19 +485,19 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
         position:relative;
         display:inline-block;
         }
-  
-  
+
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !               Animações              !
@@ -548,33 +548,33 @@ a { text-decoration: none; }
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !                HEADER                !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */ 
+    */
 
     header {
       position: relative;
       height: 56px;
     }
- 
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !             HEADER FIXED             !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-            
-  
+
+
     /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
     e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
-  
+
   nav.normal {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.959);
@@ -649,7 +649,7 @@ a { text-decoration: none; }
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
@@ -695,7 +695,7 @@ a { text-decoration: none; }
       main article:first-child section {
         margin-top: 59px;
         word-wrap: break-word;
-        
+
       }
 
           main article:first-child figure {
@@ -716,7 +716,7 @@ a { text-decoration: none; }
             float:right;
             width:70%;
             text-align: justify;
-            
+
             margin-top: 0px;
           }
 
@@ -785,7 +785,7 @@ a { text-decoration: none; }
                 color:rgb(252,252,252);
                 font-size: 33px;
                 font-weight: 5;
-                
+
               }
 
               main article#a2 section hgroup h4 {
@@ -960,11 +960,11 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -992,25 +992,25 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
         position:relative;
         display:inline-block;
         }
-  
-  
+
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !               Animações              !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
- 
+
 }/* FINAL DO MEDIA MIN-WIDTH 1583px - 1699.9px */
 
 
@@ -1056,33 +1056,33 @@ a { text-decoration: none; }
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !                HEADER                !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */ 
+    */
 
     header {
       position: relative;
       height: 56px;
     }
- 
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !             HEADER FIXED             !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-            
-  
+
+
     /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
     e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
-  
+
   nav.normal {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.959);
@@ -1156,7 +1156,7 @@ a { text-decoration: none; }
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
@@ -1295,7 +1295,7 @@ a { text-decoration: none; }
                 color:rgb(252,252,252);
                 font-size: 33px;
                 font-weight: 5;
-                
+
               }
 
               main article#a2 section hgroup h4 {
@@ -1470,11 +1470,11 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
@@ -1502,19 +1502,19 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
         position:relative;
         display:inline-block;
         }
-  
-  
+
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !               Animações              !
@@ -1567,33 +1567,33 @@ a { text-decoration: none; }
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !                HEADER                !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */ 
+    */
 
     header {
       position: relative;
       height: 56px;
     }
- 
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !             HEADER FIXED             !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-            
-  
+
+
     /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
     e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
-  
+
   nav.normal {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.959);
@@ -1667,7 +1667,7 @@ a { text-decoration: none; }
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
@@ -1806,7 +1806,7 @@ a { text-decoration: none; }
                 color:rgb(252,252,252);
                 font-size: 33px;
                 font-weight: 5;
-                
+
               }
 
               main article#a2 section hgroup h4 {
@@ -1934,7 +1934,7 @@ a { text-decoration: none; }
               }
 
           nav#nav_1_footer {
-            margin-left: 12%; 
+            margin-left: 12%;
             float: left;
             text-align: left;
           }
@@ -1950,11 +1950,11 @@ a { text-decoration: none; }
               }
 
           nav#nav_2_footer {
-            
+
           }
 
           nav#nav_3_footer {
-            
+
             float:right;
             padding-left: 3.7%;
             text-align: center;
@@ -1980,19 +1980,19 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
         position:relative;
         display:inline-block;
         }
-  
-  
+
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !               Animações              !
@@ -2045,33 +2045,33 @@ a { text-decoration: none; }
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !                HEADER                !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */ 
+    */
 
     header {
       position: relative;
       height: 56px;
     }
- 
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !             HEADER FIXED             !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-            
-  
+
+
     /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
     e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
-  
+
   nav.normal {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.959);
@@ -2145,7 +2145,7 @@ a { text-decoration: none; }
         width:53px;
         height:60px;
       }
-    
+
     nav.normal img#imgTT3 {
       display:none;
     }
@@ -2284,7 +2284,7 @@ a { text-decoration: none; }
                 color:rgb(252,252,252);
                 font-size: 33px;
                 font-weight: 5;
-                
+
               }
 
               main article#a2 section hgroup h4 {
@@ -2412,7 +2412,7 @@ a { text-decoration: none; }
               }
 
           nav#nav_1_footer {
-            margin-left: 12%; 
+            margin-left: 12%;
             float: left;
             text-align: left;
           }
@@ -2428,11 +2428,11 @@ a { text-decoration: none; }
               }
 
           nav#nav_2_footer {
-            
+
           }
 
           nav#nav_3_footer {
-            
+
             float:right;
             padding-left: 3.7%;
             text-align: center;
@@ -2458,19 +2458,19 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
         float:right;
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
         position:relative;
         display:inline-block;
         }
-  
-  
+
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !               Animações              !
@@ -2525,33 +2525,33 @@ a { text-decoration: none; }
   .hide {display:none;}
   .transparente{opacity: 0.3}
   .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}    
-  .p {font-size: 18px;}     
+  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
+  .p {font-size: 18px;}
   .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
   .topico {color:rgb(15,105,178); font-weight:bold;}
   .tm:after {content:' \2122';}
-  
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !                HEADER                !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */ 
+    */
 
     header {
       position: relative;
       height: 56px;
     }
- 
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !             HEADER FIXED             !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-            
-  
+
+
     /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
     e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
-  
+
   nav.normal {
     background-color: rgba(255, 255, 255, 0.959);
     height:56px;
@@ -2747,7 +2747,7 @@ a { text-decoration: none; }
                 color:rgb(252,252,252);
                 font-size: 33px;
                 font-weight: 5;
-                
+
               }
 
               main article#a2 section hgroup h4 {
@@ -2780,7 +2780,7 @@ a { text-decoration: none; }
           }
 
       main article#a2 section:nth-child(2) {
-        
+
       }
 
           main article#a2 section:nth-child(2) figure {
@@ -2796,7 +2796,7 @@ a { text-decoration: none; }
           }
 
       main article#a2 section:last-child {
-       
+
       }
 
           main article#a2 section:last-child figure {
@@ -2914,23 +2914,23 @@ a { text-decoration: none; }
     margin-bottom: 0;
     box-shadow: -1px -1px 20px #000;
   }
-  
+
       nav#nav_section_footer {
-        
+
       }
 
       nav#nav_section_footer span {
 
       }
-    
+
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
         position:relative;
         display:inline-block;
         }
-  
-  
+
+
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
     /*           !               Animações              !
