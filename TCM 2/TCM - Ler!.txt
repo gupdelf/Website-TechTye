@@ -10,22 +10,6 @@ rgb(255,0,0) - Vermelho
 rgb(220,220,220) - Cinza claro
 rgb(230,231,232) - Cinza fundo do relógio
 rgb(252,252,252) - Cinza mais claro
-----------------------------------------------* Links *---------------------------------------------
-Refer�ncia Visual --->  https://bossabox.com/blog/6-dicas-para-ter-um-site-bonito-e-relevante/
-
-Refer�ncia Visual --->  http://inventotecnologia.com.br/servicos/software-sob-demanda/
-						?utm_source=google&utm_medium=cpc&utm_term=search&utm_content=
-						performance&utm_campaign=sobdemanda&gclid=Cj0KCQjwz6PnBRCPARIs
-						ANOtCw3IkWROGijfOiFhIIxlRDkHQmt7vL-flH2VtqVKPiDltyM4RbEJ31MaAl
-						lTEALw_wcB
-
-Refer�ncia Visual --->  https://ravel.com.br/gestao-de-ti?utm_source=google&utm_medium
-						=cpc&utm_campaign=campanha&gclid=Cj0KCQjwla7nBRDxARIsADll0kCQ1
-						VswBywXOfTP4lHiwqJkxHHd7ZMZKgKsdQSJmNognC2Lq7Q7lWkaAsWtEALw_wcB
-
-Refer�ncia Visual -->  https://www.youtube.com/watch?v=qPYCnebQQ6U	
-
-Referência Visual -->  https://www.web4business.com.br/Index.php?gclid=EAIaIQobChMIncTHtp3l4gIVyuDICh1qegf-EAAYASAAEgJzWvD_BwE										
 ---------------------------------------------* Fonts *---------------------------------------------
 font-family: 'Roboto Mono', monospace;
 font-family: 'Nunito', sans-serif; <- Escolhida
