@@ -1,7 +1,5 @@
 a { text-decoration: none; }
-
-@media only screen and (min-width: 1700px) {
-
+@media only screen and (min-width:1200px) {
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !                RESET                 !
@@ -69,590 +67,95 @@ a { text-decoration: none; }
     /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
     e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
 
-  nav.normal {
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.959);
-    height:56px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    padding:0 9.5%;
-    position: fixed;
-    top:0;
-    margin-top: 0;
-    width:100%;
-    z-index: 10;
-  }
-
-      nav.normal ul#ul_menu {
-        left:0;
-        position:relative;
-        padding: 1.1% 0 0 0;
-        height: 100%;
-        width:45%;
-        display:inline-block;
-      }
-
-          nav.normal li.li_menu {
-            display: inline-block;
-            font-size: 15px;
-            position: relative;
-          }
-
-          nav.normal li.li_menu:not(last-child) {
-            margin-right: 10%;
-          }
-
-              li.li_menu a {
-                text-decoration: none;
-                color:rgb(55,52,53);
-              }
-
-                  nav#menu li:hover a {
-                    color:rgb(2, 99, 180);
-                    font-weight: bold;
-                    display:block;
-                  }
-
-                  nav#menu li:hover hr {
-                    display: block;
-                  }
-
-              li.li_menu hr {
-                position: absolute;
-                bottom: 0;
-                border: 2px solid rgb(2, 99, 180);
-                width: 100%;
-                border-top-left-radius: 1px;
-                border-top-right-radius: 1px;
-              }
-
-      nav.normal form#form_menu {
-        float: right;
-        transform: translateY(13px);
-        color:rgb(33, 33, 33);
-        font-weight: bold;
-        font-size:25px;
-        display:none;
-      }
-
-      nav.normal figure {
-        float:right;
-      }
-
-      nav.normal img {
-        width:53px;
-        height:60px;
-      }
-
-    nav.normal img#imgTT3 {
-      display:none;
+    nav.normal {
+      overflow: hidden;
+      background-color: rgba(255, 255, 255, 0.959);
+      height:58px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+      padding:0 9.5%;
+      z-index: 10;
+      width: 100%;
+      max-width: 3000px;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      position: fixed;
     }
 
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !                 MAIN                 !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-
-  main {
-    outline:red;
-    position: relative;
-    overflow-y: hidden;
-  }
-
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !               ARTICLE 1               !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-
-  main article:first-child {
-    padding: 5.5% 9.5%;
-    height:603px;
-    background-color: rgb(230,231,232);
-    text-align: center;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.834);
-  }
-
-      main article:first-child h1 {
-        font-size: 43px;
-        font-weight: 300;
-        font-style: italic;
-        line-height: 47px;
-        color:rgb(55,52,53);
-      }
-
-          main article:first-child h1 span.aspas {
-            font-size: 72px;
-          }
-
-      main article:first-child section {
-        margin-top: 59px;
-        word-wrap: break-word;
-
-      }
-
-          main article:first-child figure {
-            float: left;
-            width:360px;
-            height:270px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-            border-radius: 4px;
-            overflow: hidden;
-          }
-
-              main article:first-child figure img {
-                width:100%;
-                height:100%;
-              }
-
-          main article:first-child hgroup {
-            float:right;
-            width:70%;
-            text-align: justify;
-
-            margin-top: 0px;
-          }
-
-              main article:first-child hgroup h4 {
-                font-weight:200;
-                line-height: 34px;
-                color: rgb(55,52,53);
-              }
-
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !               ARTICLE 2               !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-
-  main article#a2 {
-    padding:8% 9.5%;
-    height:900px;
-
-    text-align: center;
-    position: relative;
-  }
-
-      div#fundoArt {
-        position: fixed;
-        background-image: url("img/fundoMVV.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        filter: blur(3px) ;
-        transform: scale(1.4) translateY(150px) translateX(50px);
-        content: '';
-        width: 100%;
-        height:980px;
-        top:0;
-        z-index: -2;
-      }
-
-      main article#a2 > section {
-        margin: 0 1.4%;
-        width:30%;
-        position: relative;
-        top: 0;
-        padding:6px;
-        text-align: left;
-      }
-
-          main article#a2 section figure {
-            width:100%;
-            display: block;
-          }
-
-              main article#a2 section figure img {
-                border:10px solid rgb(255,255,255);
-                box-shadow: 0 2px 7px #000;
-                width:360px;
-                height:222px;
-              }
-
-          main article#a2 section hgroup {
-            display: block;
-            margin-top: 11px;
-          }
-
-              main article#a2 > section hgroup h1 {
-                color:rgb(252,252,252);
-                font-size: 33px;
-                font-weight: 5;
-
-              }
-
-              main article#a2 section hgroup h4 {
-                text-align: left;
-                color:rgb(252,252,252);
-                width:100%;
-                font-weight:5;
-                text-align:left;
-              }
-
-              main article#a2 section hgroup span {
-                color:yellow;
-                font-weight: bold;
-                font-size: 17px;
-              }
-
-      main article#a2 section:first-child {
-        display: inline-grid;
-      }
-
-          main article#a2 section:first-child figure {
-
-          }
-
-              main article#a2 section:first-child figure img {
-
-              }
-
-          main article#a2 section:first-child hgroup {
-
-          }
-
-      main article#a2 section:nth-child(2) {
-        display: inline-grid;
-      }
-
-          main article#a2 section:nth-child(2) figure {
-
-          }
-
-              main article#a2 section:nth-child(2) figure img {
-
-              }
-
-          main article#a2 section:nth-child(2) hgroup {
-
-          }
-
-      main article#a2 section:last-child {
-        display: inline-grid;
-      }
-
-          main article#a2 section:last-child figure {
-
-          }
-
-              main article#a2 section:last-child figure img {
-
-              }
-
-          main article#a2 section:last-child hgroup {
-
-          }
-
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !             FOOTER MAIOR             !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-
-
-  /*- Estilização do footer fixo -*/
-
-  footer {
-    outline-color: red;
-    margin-top:40px;
-  }
-
-      article#article_footer {
-        position:relative;
-        height:411.75px;
-        bottom:0;
-        margin-bottom:0;
-        width:100%;
-        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
-        padding: 5% 9.5% 5% 9.5%;
-        font-size: 16px;
-      }
-
-          nav.nav_footer {
-            height: 300px;
-            float:left;
-            padding-top: 58px;
-            padding-bottom:20px;
-            padding-right: 30px;
-            color:rgba(30, 26, 65, 0.3);
-          }
-
-              nav.nav_footer span.span_titles_footer {
-                /*color:rgb(55,52,53);*/
-                color:white;
-                font-weight: bold;
-                font-size:18px;
-              }
-
-              nav.nav_footer a,span.letrinhas {
-                text-decoration: none;
-                /*color:rgba(136, 133, 134, 0.61);*/
-                color:rgba(255,255,255,0.81);
-              }
-
-          figure#figure_article_footer {
-            height: auto;
-            float:left;
-            color:rgba(30, 26, 65, 0.3);
-            padding:4% 0;
-            width:25%;
-          }
-
-              figure#figure_article_footer img {
-                width:230px;
-                height:181.28820960699px;
-              }
-
-          nav#nav_1_footer {
-            width:16%;
-            padding-left: 5%;
-          }
-
-              img.icons_footer {
-                width:20px;
-                height:20px;
-                transform: translateY(3.5px);
-              }
-
-              img#emailIconFooter {
-                filter: grayscale(30%);
-              }
-
-          nav#nav_2_footer {
-            width:26%;
-            display:inline-block;
-            right:0;
-            padding-left: 3%;
-            text-align: center;
-          }
-
-          nav#nav_3_footer {
-            width:32%;
-            float:right;
-            padding-left: 4.6%;
-            text-align: center;
-          }
-
-
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !             FOOTER MENOR             !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-
-
-  section#section_footer {
-    background-color:rgb(40, 39, 39);
-    padding: 1.7% 9.5% 1.7% 9.5%;
-    height:80px;
-    width:100%;
-    font-size: 14px;
-    text-align: justify;
-    position: relative;
-    bottom:0;
-    margin-bottom: 0;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-  }
-
-      nav#nav_section_footer {
-        float:right;
-      }
-
-      nav#nav_section_footer img.icons_footer {
-        width:33px;
-        height:33px;
-        position:relative;
-        display:inline-block;
+        nav.normal ul#ul_menu {
+          left:0;
+          position:relative;
+          height: 100%;
+          width:45%;
+          display:inline-block;
         }
 
+            nav.normal li.li_menu {
 
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !             FOOTER MENOR             !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
+              font-size: 0.9375em;
+              height: 100%;
+              position: relative;
+              display:inline-flex;
+              align-items:center;
+            }
+
+            nav.normal li.li_menu:not(last-child) {
+              margin-right: 10%;
+            }
+
+                li.li_menu a {
+                  text-decoration: none;
+                  color:rgb(55,52,53);
+                  font-weight: bold;
+                }
+
+                li.li_menu a.a-tela2 {
+
+                  color:rgb(2, 99, 180);
+                }
+
+                    nav#menu li:hover a {
+                      color:rgb(2, 99, 180);
+                      font-weight: bold;
+
+                    }
+
+                    nav#menu li:hover hr {
+                      filter:opacity(100%);
+                    }
+
+                li.li_menu hr {
+                  position: absolute;
+                  bottom: 0;
+                  border: 3px solid rgb(2, 99, 180);
+                  width: 100%;
+
+                  border-top-left-radius: 2px;
+                  border-top-right-radius: 3px;
+                }
+
+                li.li_menu hr.hr-tela2 {
+                  filter: opacity(0%);
+                }
 
 
-  section#section_footer {
-    background-color:rgb(40, 39, 39);
-    padding: 1.7% 9.5% 1.7% 9.5%;
-    height:80px;
-    width:100%;
-    font-size: 14px;
-    text-align: justify;
-    position: relative;
-    bottom:0;
-    margin-bottom: 0;
-    box-shadow: -1px -1px 20px #000;
-  }
-
-      nav#nav_section_footer {
-        float:right;
-      }
-
-      nav#nav_section_footer img.icons_footer {
-        width:33px;
-        height:33px;
-        position:relative;
-        display:inline-block;
+        nav.normal figure {
+          float:right;
+          display:flex;
+          align-items: center;
+          height:100%;
         }
 
+        nav.normal img {
+          width:53px;
+          height:65px;
+          top:3px;
+          position: relative;
+        }
 
-    /*
-    /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-    /*           !               Animações              !
-    /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */
-
-}/* FINAL DO MEDIA MIN-WIDTH 1700px - ...px */
-
-
-@media only screen and (min-width:1583px) and (max-width:1699.9px) {
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !                RESET                 !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-  * {
-    color:rgb(114, 111, 112);
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-  }
-
-
-  body {
-    font-size:16px;
-    font-family: 'Nunito', sans-serif;
-    font-stretch: 100%;
-    line-height: 28px;
-  }
-
-      img#fundoBody {
-        position: fixed;
-        filter:grayscale(100%) opacity(17%);
-        z-index: -10;
-        top:-200px;
-        transform:translateX(200px);
-      }
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !               PRÉ-SETS               !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-
-  /*- Pré sets para auxílio da estilização (apenas classes; colocar a classe desejada na tag do html já irá atribuir
-  os efeitos)-*/
-
-  .sticky {position: fixed ; top: 0 ; margin-top:0; width: 100%; height:65px; display:block;}
-  .hide {display:none;}
-  .transparente{opacity: 0.3}
-  .outline {outline: 2px solid red;}
-  .text_shadow {text-shadow: 3px 6px 7px rgba(161,161,161,0.8);}
-  .p {font-size: 18px;}
-  .h4 {color:rgb(33, 33, 33);font-weight: bold; text-align: center;}
-  .topico {color:rgb(15,105,178); font-weight:bold;}
-  .tm:after {content:' \2122';}
-
-    /*
-    /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-    /*           !                HEADER                !
-    /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */
-
-    header {
-      position: relative;
-      height: 56px;
-    }
-
-    /*
-    /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-    /*           !             HEADER FIXED             !
-    /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-    */
-
-
-    /*- Estilização do menu que vai aparecer ao rolar a página para cima, somir quando a página descer no scroll
-    e quando encostar no topo da página, "chamando" o outro menuzinho ali -*/
-
-  nav.normal {
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.959);
-    height:56px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    padding:0 9.5%;
-    position: fixed;
-    top:0;
-    margin-top: 0;
-    width:100%;
-    z-index: 10;
-  }
-
-      nav.normal ul#ul_menu {
-        left:0;
-        position:relative;
-        padding: 1.1% 0 0 0;
-        height: 100%;
-        width:45%;
-        display:inline-block;
-      }
-
-          nav.normal li.li_menu {
-            display: inline-block;
-            font-size: 15px;
-            position: relative;
-          }
-
-          nav.normal li.li_menu:not(last-child) {
-            margin-right: 10%;
-          }
-
-              li.li_menu a {
-                text-decoration: none;
-                color:rgb(55,52,53);
-              }
-
-                  nav#menu li:hover a {
-                    color:rgb(2, 99, 180);
-                    font-weight: bold;
-                    display:block;
-                  }
-
-                  nav#menu li:hover hr {
-                    display: block;
-                  }
-
-              li.li_menu hr {
-                position: absolute;
-                bottom: 0;
-                border: 2px solid rgb(2, 99, 180);
-                width: 100%;
-                transform: translateY(14.5px);
-                border-top-left-radius: 1px;
-                border-top-right-radius: 1px;
-              }
-
-      nav.normal form#form_menu {
-        float: right;
-        transform: translateY(13px);
-        color:rgb(33, 33, 33);
-        font-weight: bold;
-        font-size:25px;
-        display:none;
-      }
-
-      nav.normal figure {
-        float:right;
-      }
-
-      nav.normal img {
-        width:53px;
-        height:60px;
-      }
-
-    nav.normal img#imgTT3 {
-      display:none;
-    }
+  	  nav.normal img#imgTT3 {
+  		  display:none;
+  	  }
 
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
@@ -850,160 +353,125 @@ a { text-decoration: none; }
 
           }
 
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !             FOOTER MAIOR             !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
+          /*
+          /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+          /*           !             FOOTER MAIOR             !
+          /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+          */
 
 
-  /*- Estilização do footer fixo -*/
+          /*- Estilização do footer fixo -*/
 
-  footer {
-    outline-color: red;
-    margin-top:40px;
-  }
-
-      article#article_footer {
-        position:relative;
-        height:411.75px;
-        bottom:0;
-        margin-bottom:0;
-        width:100%;
-        background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
-        padding: 5% 9.5% 5% 9.5%;
-        font-size: 16px;
-      }
-
-          nav.nav_footer {
-            height: 300px;
-            float:left;
-            padding-top: 58px;
-            padding-bottom:20px;
-            padding-right: 30px;
-            color:rgba(30, 26, 65, 0.3);
+          footer {
+            outline-color: red;
+            margin-top:35px;
+            width: 100%;
           }
 
-              nav.nav_footer span.span_titles_footer {
-                /*color:rgb(55,52,53);*/
-                color:white;
-                font-weight: bold;
-                font-size:18px;
+              article#article_footer {
+                position:relative;
+                height:411.75px;
+                width:100%;
+                background-image: linear-gradient(rgba(255,255,255,0),rgba(251,251,251,0.4),rgb(251,251,251));
+                padding: 0 9.5%;
+                font-size: 1em;
+                align-items: center;
+                display: inline-flex;
               }
 
-              nav.nav_footer a,span.letrinhas {
-                text-decoration: none;
-                /*color:rgba(136, 133, 134, 0.61);*/
-                color:rgba(255,255,255,0.81);
-              }
+                  nav.nav_footer {
+                    height: auto;
+                    text-align: center;
+                    color:rgba(30, 26, 65, 0.3);
+                    align-items: center;
+                    display: block;
+                  }
 
-          figure#figure_article_footer {
-            height: auto;
-            float:left;
-            color:rgba(30, 26, 65, 0.3);
-            padding:4% 0;
-            width:25%;
+                      nav.nav_footer span.span_titles_footer {
+                        color:white;
+                        font-weight: bold;
+                        font-size:1.125em;
+                        width: 100%;
+                      }
+
+                      nav.nav_footer a,span.letrinhas {
+                        text-decoration: none;
+                        color:rgba(255,255,255,0.81);
+                        width: 100%;
+                      }
+
+                  figure#figure_article_footer {
+                    height: auto;
+                    float:left;
+                    color:rgba(30, 26, 65, 0.3);
+                    width:25%;
+                  }
+
+                      figure#figure_article_footer img {
+                        width:230px;
+                        height:181.28820960699px;
+                      }
+
+                  nav#nav_1_footer {
+                    width:16%;
+                  }
+
+                      img.icons_footer {
+                        width:20px;
+                        height:20px;
+                        transform: translateY(3.5px);
+                      }
+
+                      img#emailIconFooter {
+                        filter: grayscale(30%);
+                      }
+
+                  nav#nav_2_footer {
+                    width:26%;
+                    display:inline-block;
+                    right:0;
+                  }
+
+                  nav#nav_3_footer {
+                    width:32%;
+                    float:right;
+                    text-align: center;
+                  }
+
+
+          /*
+          /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+          /*           !             FOOTER MENOR             !
+          /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+          */
+
+
+          section#section_footer {
+            background-color:rgb(40, 39, 39);
+            padding: 0 9.5%;
+            height:80px;
+            width:100%;
+            font-size: 0.875em;
+            position: relative;
+            bottom:0;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+            align-items: center;
+            display: inline-flex;
           }
 
-              figure#figure_article_footer img {
-                width:230px;
-                height:181.28820960699px;
+              nav#nav_section_footer {
+
+                position: relative;
+                margin-left: auto;
+
               }
 
-          nav#nav_1_footer {
-            width:16%;
-            padding-left: 5%;
-          }
-
-              img.icons_footer {
-                width:20px;
-                height:20px;
-                transform: translateY(3.5px);
-              }
-
-              img#emailIconFooter {
-                filter: grayscale(30%);
-              }
-
-          nav#nav_2_footer {
-            width:26%;
-            display:inline-block;
-            right:0;
-            padding-left: 3%;
-            text-align: center;
-          }
-
-          nav#nav_3_footer {
-            width:32%;
-            float:right;
-            padding-left: 4.6%;
-            text-align: center;
-          }
-
-
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !             FOOTER MENOR             !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-
-
-  section#section_footer {
-    background-color:rgb(40, 39, 39);
-    padding: 1.7% 9.5% 1.7% 9.5%;
-    height:80px;
-    width:100%;
-    font-size: 14px;
-    text-align: justify;
-    position: relative;
-    bottom:0;
-    margin-bottom: 0;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
-  }
-
-      nav#nav_section_footer {
-        float:right;
-      }
-
-      nav#nav_section_footer img.icons_footer {
-        width:33px;
-        height:33px;
-        position:relative;
-        display:inline-block;
-        }
-
-
-  /*
-  /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-  /*           !             FOOTER MENOR             !
-  /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-  */
-
-
-  section#section_footer {
-    background-color:rgb(40, 39, 39);
-    padding: 1.7% 9.5% 1.7% 9.5%;
-    height:80px;
-    width:100%;
-    font-size: 14px;
-    text-align: justify;
-    position: relative;
-    bottom:0;
-    margin-bottom: 0;
-    box-shadow: -1px -1px 20px #000;
-  }
-
-      nav#nav_section_footer {
-        float:right;
-      }
-
-      nav#nav_section_footer img.icons_footer {
-        width:33px;
-        height:33px;
-        position:relative;
-        display:inline-block;
-        }
-
+              nav#nav_section_footer img.icons_footer {
+                width:33px;
+                height:33px;
+                position:relative;
+                display:inline-block;
+                }
 
     /*
     /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
@@ -1014,7 +482,7 @@ a { text-decoration: none; }
 }/* FINAL DO MEDIA MIN-WIDTH 1583px - 1699.9px */
 
 
-@media only screen and (min-width: 1400px) and (max-width: 1582.9px) {
+@media only screen and (min-width: 992px) and (max-width: 1199.9px) {
 
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
@@ -1524,7 +992,7 @@ a { text-decoration: none; }
 }/* FINAL DO MEDIA 1400px - 1582.9px */
 
 
-@media only screen and (min-width: 1190px) and (max-width: 1399.9px) {
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
 
 
   /*
@@ -2001,7 +1469,7 @@ a { text-decoration: none; }
 }/* FINAL DO MEDIA 1233px - 1399.9px */
 
 
-@media only screen and (min-width: 1000px) and (max-width: 1189.9px) {
+@media only screen and (min-width: 600px) and (max-width: 767.9px) {
 
 
 
@@ -2479,7 +1947,7 @@ a { text-decoration: none; }
 }/* FINAL DO MEDIA 1000px - 1189.9px */
 
 
-@media only screen and (max-width: 999.9px) {
+@media only screen and (max-width: 599.9px) {
 
 
 
