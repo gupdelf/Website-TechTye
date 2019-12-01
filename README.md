@@ -3,6 +3,11 @@
  
 &nbsp;
 
+## **Sugestões, reclamações e reports de bugs**
+Nós super agradecemos qualquer tipo de contribuição e feedback! Por favor [clique aqui](https://github.com/gusttap/WEBSITE-TCM-ETEC-2019-MODULO-1/issues/new) para ser redirecionado e escrever sua mensagem, nós iremos dar uma olhada assim que possível.
+
+&nbsp;
+
 ## Changelog
 
 - **v0.11.9 (December 1st, 2019)**
