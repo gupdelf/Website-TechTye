@@ -5,10 +5,10 @@ Website criado durante as aulas do curso de Análise e Desenvolvimento de Sistem
 
 ## Screenshots
 
- <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_1.png" width="400px">
- <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_2.png" width="400px">
- <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_3.png" width="400px">
- <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_4.png" width="400px">
+ <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_1.png" width="500px">
+ <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_2.png" width="500px">
+ <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_3.png" width="500px">
+ <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_4.png" width="500px">
 
 
 &nbsp;
