@@ -1,15 +1,15 @@
 # TechTye's Website 
- Website criado durante as aulas do curso de Análise e Desenvolvimento de Sistemas, oferecido pela instituição ETEC Basilides de Godoy - Centro Paula Souza, no primeiro semestre do ano de 2019.
+Website criado durante as aulas do curso de Análise e Desenvolvimento de Sistemas, oferecido pela instituição ETEC Basilides de Godoy - Centro Paula Souza, no primeiro semestre do ano de 2019.
  
 &nbsp;
 
 ## Screenshots
-<div style="position:absolute">
+
  <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_1.png" width="400px">
  <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_2.png" width="400px">
  <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_3.png" width="400px">
  <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_4.png" width="400px">
-</div>
+
 
 &nbsp;
 
