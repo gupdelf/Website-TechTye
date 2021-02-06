@@ -3,6 +3,16 @@
  
 &nbsp;
 
+## Screenshots
+<div style="position:absolute">
+ <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_1.png" width="400px">
+ <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_2.png" width="400px">
+ <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_3.png" width="400px">
+ <img src="https://github.com/colonny/TCM-ETEC-Html-CSS-JS-Website-TechTye/blob/master/TCM%202/img/Screenshot_4.png" width="400px">
+</div>
+
+&nbsp;
+
 ## **Sugestões, reclamações e reports de bugs**
 Nós super agradecemos qualquer tipo de contribuição e feedback! Por favor [clique aqui](https://github.com/gusttap/WEBSITE-TCM-ETEC-2019-MODULO-1/issues/new) para ser redirecionado e escrever sua mensagem, nós iremos dar uma olhada assim que possível.
 
