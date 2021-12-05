@@ -309,49 +309,13 @@ a { text-decoration: none; }
         display: inline-grid;
       }
 
-          main article#a2 section:first-child figure {
-
-          }
-
-              main article#a2 section:first-child figure img {
-
-              }
-
-          main article#a2 section:first-child hgroup {
-
-          }
-
       main article#a2 section:nth-child(2) {
         display: inline-grid;
       }
-
-          main article#a2 section:nth-child(2) figure {
-
-          }
-
-              main article#a2 section:nth-child(2) figure img {
-
-              }
-
-          main article#a2 section:nth-child(2) hgroup {
-
-          }
-
+        
       main article#a2 section:last-child {
         display: inline-grid;
       }
-
-          main article#a2 section:last-child figure {
-
-          }
-
-              main article#a2 section:last-child figure img {
-
-              }
-
-          main article#a2 section:last-child hgroup {
-
-          }
 
           /*
           /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
@@ -783,50 +747,16 @@ a { text-decoration: none; }
       main article#a2 section:first-child {
         display: inline-grid;
       }
-
-          main article#a2 section:first-child figure {
-
-          }
-
-              main article#a2 section:first-child figure img {
-
-              }
-
-          main article#a2 section:first-child hgroup {
-
-          }
-
+      
       main article#a2 section:nth-child(2) {
         display: inline-grid;
       }
 
-          main article#a2 section:nth-child(2) figure {
-
-          }
-
-              main article#a2 section:nth-child(2) figure img {
-
-              }
-
-          main article#a2 section:nth-child(2) hgroup {
-
-          }
-
+          
       main article#a2 section:last-child {
         display: inline-grid;
       }
 
-          main article#a2 section:last-child figure {
-
-          }
-
-              main article#a2 section:last-child figure img {
-
-              }
-
-          main article#a2 section:last-child hgroup {
-
-          }
 
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
@@ -1295,50 +1225,16 @@ a { text-decoration: none; }
         display: inline-grid;
       }
 
-          main article#a2 section:first-child figure {
-
-          }
-
-              main article#a2 section:first-child figure img {
-
-              }
-
-          main article#a2 section:first-child hgroup {
-
-          }
-
+          
       main article#a2 section:nth-child(2) {
         display: inline-grid;
       }
-
-          main article#a2 section:nth-child(2) figure {
-
-          }
-
-              main article#a2 section:nth-child(2) figure img {
-
-              }
-
-          main article#a2 section:nth-child(2) hgroup {
-
-          }
 
       main article#a2 section:last-child {
         display: inline-grid;
       }
 
-          main article#a2 section:last-child figure {
-
-          }
-
-              main article#a2 section:last-child figure img {
-
-              }
-
-          main article#a2 section:last-child hgroup {
-
-          }
-
+         
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !             FOOTER MAIOR             !
@@ -1417,10 +1313,7 @@ a { text-decoration: none; }
                 filter: grayscale(30%);
               }
 
-          nav#nav_2_footer {
-
-          }
-
+       
           nav#nav_3_footer {
 
             float:right;
@@ -1773,50 +1666,17 @@ a { text-decoration: none; }
         display: inline-grid;
       }
 
-          main article#a2 section:first-child figure {
-
-          }
-
-              main article#a2 section:first-child figure img {
-
-              }
-
-          main article#a2 section:first-child hgroup {
-
-          }
-
+          
       main article#a2 section:nth-child(2) {
         display: inline-grid;
       }
 
-          main article#a2 section:nth-child(2) figure {
-
-          }
-
-              main article#a2 section:nth-child(2) figure img {
-
-              }
-
-          main article#a2 section:nth-child(2) hgroup {
-
-          }
-
+          
       main article#a2 section:last-child {
         display: inline-grid;
       }
 
-          main article#a2 section:last-child figure {
-
-          }
-
-              main article#a2 section:last-child figure img {
-
-              }
-
-          main article#a2 section:last-child hgroup {
-
-          }
-
+         
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !             FOOTER MAIOR             !
@@ -1895,10 +1755,7 @@ a { text-decoration: none; }
                 filter: grayscale(30%);
               }
 
-          nav#nav_2_footer {
-
-          }
-
+         
           nav#nav_3_footer {
 
             float:right;
@@ -2232,53 +2089,7 @@ a { text-decoration: none; }
                 font-size: 17px;
               }
 
-      main article#a2 section:first-child {
-      }
-
-          main article#a2 section:first-child figure {
-
-          }
-
-              main article#a2 section:first-child figure img {
-
-              }
-
-          main article#a2 section:first-child hgroup {
-
-          }
-
-      main article#a2 section:nth-child(2) {
-
-      }
-
-          main article#a2 section:nth-child(2) figure {
-
-          }
-
-              main article#a2 section:nth-child(2) figure img {
-
-              }
-
-          main article#a2 section:nth-child(2) hgroup {
-
-          }
-
-      main article#a2 section:last-child {
-
-      }
-
-          main article#a2 section:last-child figure {
-
-          }
-
-              main article#a2 section:last-child figure img {
-
-              }
-
-          main article#a2 section:last-child hgroup {
-
-          }
-
+     
   /*
   /*          █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
   /*           !             FOOTER MAIOR             !
@@ -2383,14 +2194,7 @@ a { text-decoration: none; }
     box-shadow: -1px -1px 20px #000;
   }
 
-      nav#nav_section_footer {
-
-      }
-
-      nav#nav_section_footer span {
-
-      }
-
+      
       nav#nav_section_footer img.icons_footer {
         width:33px;
         height:33px;
