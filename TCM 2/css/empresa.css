@@ -219,7 +219,6 @@ a { text-decoration: none; }
             float:right;
             width:70%;
             text-align: justify;
-
             margin-top: 0px;
           }
 
@@ -443,7 +442,7 @@ a { text-decoration: none; }
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
 
-}/* FINAL DO MEDIA MIN-WIDTH 1583px - 1699.9px */
+}/* FINAL DO MEDIA MIN-WIDTH 1200px */
 
 
 @media only screen and (min-width: 992px) and (max-width: 1199.9px) {
@@ -919,7 +918,7 @@ a { text-decoration: none; }
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
 
-}/* FINAL DO MEDIA 1400px - 1582.9px */
+}/* FINAL DO MEDIA 992px - 1199.9px */
 
 
 @media only screen and (min-width: 768px) and (max-width: 991.9px) {
@@ -1359,7 +1358,7 @@ a { text-decoration: none; }
     /*           !               Animações              !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-}/* FINAL DO MEDIA 1233px - 1399.9px */
+}/* FINAL DO MEDIA 768px - 991.9px */
 
 
 @media only screen and (min-width: 600px) and (max-width: 767.9px) {
@@ -1801,7 +1800,7 @@ a { text-decoration: none; }
     /*           !               Animações              !
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
-}/* FINAL DO MEDIA 1000px - 1189.9px */
+}/* FINAL DO MEDIA 600px - 767.9px */
 
 
 @media only screen and (max-width: 599.9px) {
@@ -2209,4 +2208,4 @@ a { text-decoration: none; }
     /*          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
     */
 
-}/* FINAL DO MEDIA 0px - 999.9px
+}/* FINAL DO MEDIA 0px - 599.9px
