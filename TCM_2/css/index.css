@@ -3162,11 +3162,10 @@ a { text-decoration: none; }
     outline:red;
     position: absolute;
     width: 100%;
-    height
   }
 
       article#logo {
-        padding:0.05% 5.5%;
+        padding: 0.05% 5.5%;
         height:40px;
         background-color: rgba(0, 0, 0, 0.918);
       }
